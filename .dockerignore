@@ -1,0 +1,6 @@
+*
+!src/
+!src/**
+!requirements.lock
+!Dockerfile
+**/__pycache__/
