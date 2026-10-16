@@ -1,0 +1,604 @@
+{
+  "exo-001": {
+    "status": "ok",
+    "rows": [
+      {
+        "n": 6445
+      }
+    ],
+    "units": {
+      "n": null
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select count(*) as n from pscomppars",
+      "started_at": "2026-10-12T18:35:31.744793+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "66135cd3fb7034b530f658ff542d7a12a238c0ee9de1a2136f142e8da1859f42",
+      "finished_at": "2026-10-12T18:35:32.843999+00:00",
+      "bytes": 499,
+      "source_row_count": 1,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "n": null
+      }
+    }
+  },
+  "exo-002": {
+    "status": "ok",
+    "rows": [
+      {
+        "n": 6445
+      }
+    ],
+    "units": {
+      "n": null
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select count(*) as n from ps where default_flag=1",
+      "started_at": "2026-10-12T18:35:32.848263+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "66135cd3fb7034b530f658ff542d7a12a238c0ee9de1a2136f142e8da1859f42",
+      "finished_at": "2026-10-12T18:35:34.158258+00:00",
+      "bytes": 499,
+      "source_row_count": 1,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "n": null
+      }
+    }
+  },
+  "exo-003": {
+    "status": "ok",
+    "rows": [
+      {
+        "n": 40336
+      }
+    ],
+    "units": {
+      "n": null
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select count(*) as n from ps",
+      "started_at": "2026-10-12T18:35:34.163512+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "7c0b93656c652f67ad1861230462abc5d3924561fe07f7379afc240cc3539412",
+      "finished_at": "2026-10-12T18:35:35.521259+00:00",
+      "bytes": 500,
+      "source_row_count": 1,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "n": null
+      }
+    }
+  },
+  "exo-004": {
+    "status": "ok",
+    "rows": [
+      {
+        "n": 4781
+      }
+    ],
+    "units": {
+      "n": null
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select count(*) as n from pscomppars where discoverymethod='Transit'",
+      "started_at": "2026-10-12T18:35:35.526926+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "701d6348ac12c127cedb2d8d75e3277606e2481a0aeb196278739c8379bfb94e",
+      "finished_at": "2026-10-12T18:35:36.625212+00:00",
+      "bytes": 499,
+      "source_row_count": 1,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "n": null
+      }
+    }
+  },
+  "exo-005": {
+    "status": "ok",
+    "rows": [
+      {
+        "n": 1203
+      }
+    ],
+    "units": {
+      "n": null
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select count(*) as n from pscomppars where discoverymethod='Radial Velocity'",
+      "started_at": "2026-10-12T18:35:36.626821+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "6fb48027805f9dbe38375bd9d5514994219672d15dc7e71b459d9ea7966be69b",
+      "finished_at": "2026-10-12T18:35:37.851751+00:00",
+      "bytes": 499,
+      "source_row_count": 1,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "n": null
+      }
+    }
+  },
+  "exo-006": {
+    "status": "ok",
+    "rows": [
+      {
+        "n": 4842
+      }
+    ],
+    "units": {
+      "n": null
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select count(distinct hostname) as n from pscomppars",
+      "started_at": "2026-10-12T18:35:37.858174+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "117164d91667fbb0685add100e7586a5da9c7775d72f4bfa2f23f5c21b278c38",
+      "finished_at": "2026-10-12T18:35:39.008053+00:00",
+      "bytes": 499,
+      "source_row_count": 1,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "n": null
+      }
+    }
+  },
+  "exo-007": {
+    "status": "ok",
+    "rows": [
+      {
+        "pl_rade": 0.92
+      }
+    ],
+    "units": {
+      "pl_rade": "Rearth"
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select pl_rade from pscomppars where pl_name='TRAPPIST-1 e'",
+      "started_at": "2026-10-12T18:35:39.012155+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "f61a52711de7e8b168b4efdab364ef6795dd09e05f5a8ddd04156974cdb3ac00",
+      "finished_at": "2026-10-12T18:35:40.131602+00:00",
+      "bytes": 540,
+      "source_row_count": 1,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "pl_rade": "Earth Radius"
+      }
+    }
+  },
+  "exo-008": {
+    "status": "ok",
+    "rows": [
+      {
+        "pl_orbper": 6.101013
+      }
+    ],
+    "units": {
+      "pl_orbper": "day"
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select pl_orbper from pscomppars where pl_name='TRAPPIST-1 e'",
+      "started_at": "2026-10-12T18:35:40.192364+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "d2c17f15051c3a8b3f7c1f95734eb3405a59e59d0e27ad3a85c00a40e8054d54",
+      "finished_at": "2026-10-12T18:35:41.703883+00:00",
+      "bytes": 539,
+      "source_row_count": 1,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "pl_orbper": "days"
+      }
+    }
+  },
+  "exo-009": {
+    "status": "ok",
+    "rows": [
+      {
+        "sy_dist": 12.42988881
+      }
+    ],
+    "units": {
+      "sy_dist": "pc"
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select sy_dist from pscomppars where pl_name='TRAPPIST-1 e'",
+      "started_at": "2026-10-12T18:35:41.719933+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "d2c352ec55120491367e0b736c200154a986fa81a77bfd8d900f1f90baea4a63",
+      "finished_at": "2026-10-12T18:35:42.813210+00:00",
+      "bytes": 531,
+      "source_row_count": 1,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "sy_dist": "pc"
+      }
+    }
+  },
+  "exo-010": {
+    "status": "ok",
+    "rows": [
+      {
+        "n": 1228
+      }
+    ],
+    "units": {
+      "n": null
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select count(*) as n from pscomppars where pl_rade is not null and pl_rade<2 and pl_radelim=0 and pl_orbper is not null and pl_orbper<10",
+      "started_at": "2026-10-12T18:35:42.815225+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "b8d8280a11fe89826a26a66a4fa541a42583402686fcde0ee99f89b2b94e4923",
+      "finished_at": "2026-10-12T18:35:43.810982+00:00",
+      "bytes": 499,
+      "source_row_count": 1,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "n": null
+      }
+    }
+  },
+  "exo-011": {
+    "status": "ok",
+    "rows": [
+      {
+        "discoverymethod": "Astrometry",
+        "n": 6
+      },
+      {
+        "discoverymethod": "Disk Kinematics",
+        "n": 1
+      },
+      {
+        "discoverymethod": "Eclipse Timing Variations",
+        "n": 17
+      },
+      {
+        "discoverymethod": "Imaging",
+        "n": 97
+      },
+      {
+        "discoverymethod": "Microlensing",
+        "n": 292
+      },
+      {
+        "discoverymethod": "Orbital Brightness Modulation",
+        "n": 9
+      },
+      {
+        "discoverymethod": "Pulsar Timing",
+        "n": 8
+      },
+      {
+        "discoverymethod": "Pulsation Timing Variations",
+        "n": 2
+      },
+      {
+        "discoverymethod": "Radial Velocity",
+        "n": 1203
+      },
+      {
+        "discoverymethod": "Transit",
+        "n": 4781
+      },
+      {
+        "discoverymethod": "Transit Timing Variations",
+        "n": 29
+      }
+    ],
+    "units": {
+      "discoverymethod": null,
+      "n": null
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select discoverymethod,count(*) as n from pscomppars group by discoverymethod order by discoverymethod",
+      "started_at": "2026-10-12T18:35:43.810982+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "47a524c3ce967352727ef13b6f664f95b0f3da43d533b6951c24d2c62596e01d",
+      "finished_at": "2026-10-12T18:35:45.026965+00:00",
+      "bytes": 1637,
+      "source_row_count": 11,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "discoverymethod": null,
+        "n": null
+      }
+    }
+  },
+  "exo-012": {
+    "status": "ok",
+    "rows": [
+      {
+        "pl_refname": "<a refstr=DUCROT_ET_AL__2020 href=https://ui.adsabs.harvard.edu/abs/2020A&A...640A.112D/abstract target=ref>Ducrot et al. 2020</a>",
+        "pl_rade": null,
+        "default_flag": 0
+      },
+      {
+        "pl_refname": "<a refstr=HIRANO_ET_AL__2020 href=https://ui.adsabs.harvard.edu/abs/2020ApJ...890L..27H/abstract target=ref>Hirano et al. 2020</a>",
+        "pl_rade": null,
+        "default_flag": 0
+      },
+      {
+        "pl_refname": "<a refstr=GILLON_ET_AL__2017 href=https://ui.adsabs.harvard.edu/abs/2017Natur.542..456G/abstract target=ref>Gillon et al. 2017</a>",
+        "pl_rade": 0.918,
+        "default_flag": 0
+      },
+      {
+        "pl_refname": "<a refstr=GRIMM_ET_AL__2018 href=https://ui.adsabs.harvard.edu/abs/2018A&A...613A..68G/abstract target=ref>Grimm et al. 2018</a>",
+        "pl_rade": 0.91,
+        "default_flag": 0
+      },
+      {
+        "pl_refname": "<a refstr=AGOL_ET_AL__2021 href=https://ui.adsabs.harvard.edu/abs/2021PSJ.....2....1A/abstract target=ref>Agol et al. 2021</a>",
+        "pl_rade": 0.92,
+        "default_flag": 1
+      }
+    ],
+    "units": {
+      "pl_refname": null,
+      "pl_rade": "Rearth",
+      "default_flag": null
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select pl_refname,pl_rade,default_flag from ps where pl_name='TRAPPIST-1 e'",
+      "started_at": "2026-10-12T18:35:45.030517+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "0a836325ca76b656c1d95b880a267643aba93ab79cc1d01e8e43ec33b7967ba8",
+      "finished_at": "2026-10-12T18:35:46.393612+00:00",
+      "bytes": 1847,
+      "source_row_count": 5,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "pl_refname": null,
+        "pl_rade": "Rearth",
+        "default_flag": null
+      }
+    }
+  },
+  "exo-013": {
+    "status": "ok",
+    "rows": [
+      {
+        "pl_rade": 0.92
+      }
+    ],
+    "units": {
+      "pl_rade": "Rearth"
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select pl_rade from ps where pl_name='TRAPPIST-1 e' and default_flag=1",
+      "started_at": "2026-10-12T18:35:46.455304+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "0ea151f5613302e433b50baba65d678022f02db0ef0d1336b632084c5cbd8561",
+      "finished_at": "2026-10-12T18:35:47.697264+00:00",
+      "bytes": 534,
+      "source_row_count": 1,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "pl_rade": "Rearth"
+      }
+    }
+  },
+  "exo-014": {
+    "status": "ok",
+    "rows": [
+      {
+        "n": 2236
+      }
+    ],
+    "units": {
+      "n": null
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select count(*) as n from pscomppars where pl_bmasse is not null and pl_bmassprov='Mass' and pl_bmasselim=0",
+      "started_at": "2026-10-12T18:35:47.705658+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "acaf866df49e16eefeda893ea69c0d828163e93bbcaeadc0879563292bde3909",
+      "finished_at": "2026-10-12T18:35:49.047446+00:00",
+      "bytes": 499,
+      "source_row_count": 1,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "n": null
+      }
+    }
+  },
+  "exo-015": {
+    "status": "ok",
+    "rows": [
+      {
+        "n": 0
+      }
+    ],
+    "units": {
+      "n": null
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select count(*) as n from pscomppars where pl_rade is not null and pl_radelim=1",
+      "started_at": "2026-10-12T18:35:49.047446+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "5476769690f699b0f097d5eb4a475b4857c2707755aa755b03162d26b7939fca",
+      "finished_at": "2026-10-12T18:35:50.148130+00:00",
+      "bytes": 496,
+      "source_row_count": 1,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "n": null
+      }
+    }
+  },
+  "exo-016": {
+    "status": "ok",
+    "rows": [
+      {
+        "pl_name": "V2376 Ori b",
+        "pl_rade": 87.20586985
+      },
+      {
+        "pl_name": "HD 100546 b",
+        "pl_rade": 77.3421
+      },
+      {
+        "pl_name": "GQ Lup b",
+        "pl_rade": 33.6
+      },
+      {
+        "pl_name": "Kepler-297 d",
+        "pl_rade": 32.6
+      },
+      {
+        "pl_name": "DH Tau b",
+        "pl_rade": 30.2643
+      },
+      {
+        "pl_name": "Kepler-1979 b",
+        "pl_rade": 29.33
+      },
+      {
+        "pl_name": "TOI-1408 b",
+        "pl_rade": 25.0
+      },
+      {
+        "pl_name": "CT Cha b",
+        "pl_rade": 24.66
+      },
+      {
+        "pl_name": "HAT-P-67 b",
+        "pl_rade": 23.9872187
+      },
+      {
+        "pl_name": "TOI-3540 A b",
+        "pl_rade": 23.53885947
+      }
+    ],
+    "units": {
+      "pl_name": null,
+      "pl_rade": "Rearth"
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select pl_name,pl_rade from pscomppars where pl_rade is not null order by pl_rade desc,pl_name asc",
+      "started_at": "2026-10-12T18:35:50.151452+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "ebefa788a8cd9f0861707d7b9cb11b180d55ff772f1953ba2a7b927852aa79fa",
+      "finished_at": "2026-10-12T18:35:53.300407+00:00",
+      "bytes": 619091,
+      "source_row_count": 6395,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "pl_name": null,
+        "pl_rade": "Earth Radius"
+      },
+      "client_take": 10
+    }
+  },
+  "exo-017": {
+    "status": "ok",
+    "rows": [
+      {
+        "n": 0
+      }
+    ],
+    "units": {
+      "n": null
+    },
+    "error": null,
+    "failure_origin": null,
+    "provenance": {
+      "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+      "query": "select count(*) as n from pscomppars where discoverymethod='transit'",
+      "started_at": "2026-10-12T18:35:53.620374+00:00",
+      "maxrec": 10000,
+      "http_status": 200,
+      "attempts": 1,
+      "sha256": "5476769690f699b0f097d5eb4a475b4857c2707755aa755b03162d26b7939fca",
+      "finished_at": "2026-10-12T18:35:54.500134+00:00",
+      "bytes": 496,
+      "source_row_count": 1,
+      "schema_sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+      "archive_units": {
+        "n": null
+      }
+    }
+  }
+}

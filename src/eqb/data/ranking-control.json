@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "rows": [
+    {
+      "n": 6395,
+      "largest": 87.205869846
+    }
+  ],
+  "units": {
+    "n": null,
+    "largest": null
+  },
+  "error": null,
+  "failure_origin": null,
+  "provenance": {
+    "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+    "query": "select count(*) as n,max(pl_rade) as largest from pscomppars where pl_rade is not null",
+    "started_at": "2026-10-12T18:35:54.505584+00:00",
+    "maxrec": 10000,
+    "http_status": 200,
+    "attempts": 1,
+    "sha256": "03927ae6976378f3a49f6c65702e795e308ad5d90a25097d0e916b9db7c8e2f0",
+    "finished_at": "2026-10-12T18:35:55.744255+00:00",
+    "bytes": 596
+  }
+}

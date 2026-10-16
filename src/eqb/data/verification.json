@@ -1,0 +1,211 @@
+{
+  "captured_at": "2026-10-12T18:35:55.749465+00:00",
+  "questions": 20,
+  "answerable": 17,
+  "checks": [
+    {
+      "name": "schema_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-001_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-001_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-002_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-002_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-003_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-003_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-004_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-004_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-005_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-005_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-006_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-006_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-007_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-007_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-007_pl_rade_unit_compatible",
+      "passed": true
+    },
+    {
+      "name": "exo-008_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-008_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-008_pl_orbper_unit_compatible",
+      "passed": true
+    },
+    {
+      "name": "exo-009_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-009_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-009_sy_dist_unit_compatible",
+      "passed": true
+    },
+    {
+      "name": "exo-010_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-010_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-011_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-011_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-012_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-012_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-012_pl_rade_unit_compatible",
+      "passed": true
+    },
+    {
+      "name": "exo-013_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-013_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-013_pl_rade_unit_compatible",
+      "passed": true
+    },
+    {
+      "name": "exo-014_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-014_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-015_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-015_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-016_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-016_columns",
+      "passed": true
+    },
+    {
+      "name": "exo-016_pl_rade_unit_compatible",
+      "passed": true
+    },
+    {
+      "name": "ranking_global_order",
+      "passed": true
+    },
+    {
+      "name": "exo-017_complete",
+      "passed": true
+    },
+    {
+      "name": "exo-017_columns",
+      "passed": true
+    },
+    {
+      "name": "preferred_vs_composite_population",
+      "passed": true
+    },
+    {
+      "name": "method_groups_sum_to_population",
+      "passed": true
+    },
+    {
+      "name": "preferred_lookup_unique",
+      "passed": true
+    },
+    {
+      "name": "case_control_zero",
+      "passed": true
+    },
+    {
+      "name": "ranked_population_count",
+      "passed": true
+    },
+    {
+      "name": "ranked_maximum",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "expert_review": "pending",
+  "kind": "public-development-reference",
+  "model_runs": 0,
+  "model_cost_usd": 0,
+  "limitations": [
+    "Archive calls are sequential, not an atomic data snapshot.",
+    "Machine checks do not replace expert scientific review.",
+    "Replaying saved data does not verify current archive contents."
+  ],
+  "references_sha256": "b088398030e2904b960246b71c66a708c86afca6093f4c0738f64121cc917cd9",
+  "questions_sha256": "d4801a3dcb65ae97082c5fa12d8dc4de7b6f8d63cddec51bf6f6a85305e21526"
+}

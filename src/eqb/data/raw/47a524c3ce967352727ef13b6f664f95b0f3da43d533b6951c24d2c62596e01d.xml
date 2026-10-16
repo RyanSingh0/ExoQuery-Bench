@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VOTABLE version="1.3" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.3">
+  <RESOURCE type="results">
+  <INFO name="QUERY_STATUS" value="OK"/>
+  <TABLE>
+    <FIELD ID="discoverymethod" arraysize="*" datatype="char" name="discoverymethod">
+  <DESCRIPTION><![CDATA[ Discovery Method ]]></DESCRIPTION>
+</FIELD>
+    <FIELD ID="n" datatype="int" name="n"/>
+    <DATA>
+      <TABLEDATA>
+        <TR>
+        <TD><![CDATA[Astrometry]]></TD>
+        <TD>6</TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[Disk Kinematics]]></TD>
+        <TD>1</TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[Eclipse Timing Variations]]></TD>
+        <TD>17</TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[Imaging]]></TD>
+        <TD>97</TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[Microlensing]]></TD>
+        <TD>292</TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[Orbital Brightness Modulation]]></TD>
+        <TD>9</TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[Pulsar Timing]]></TD>
+        <TD>8</TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[Pulsation Timing Variations]]></TD>
+        <TD>2</TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[Radial Velocity]]></TD>
+        <TD>1203</TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[Transit]]></TD>
+        <TD>4781</TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[Transit Timing Variations]]></TD>
+        <TD>29</TD>
+        </TR>
+      </TABLEDATA>
+    </DATA>
+  </TABLE>
+  </RESOURCE>
+</VOTABLE>

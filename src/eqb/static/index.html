@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Inspect astronomy archive evidence, compare result tables, and review benchmark questions.">
+  <title>ExoQuery · Research workbench</title>
+  <link rel="stylesheet" href="/static/styles.css"><script src="/static/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#detail">Skip to question</a>
+  <header><a class="brand" href="/" aria-label="ExoQuery home"><span class="orbit" aria-hidden="true">◎</span> ExoQuery<span class="brand-sub">/ research workbench</span></a><span class="mode"><i></i> Local · no model calls</span></header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">ASTRONOMY / EVIDENCE / EVALUATION</p><h1>Every answer needs evidence.</h1><p class="lede">Explore archive questions. Inspect their sources. Test a result before trusting it.</p></div><div class="stage"><span class="stage-label">DEVELOPMENT SET · v0.1</span><strong>Scientific review pending</strong><span>Built for researchers to inspect and improve.</span></div></section>
+    <section id="metrics" class="metrics" aria-label="Dataset status"></section>
+    <p class="notice">These are saved NASA archive results, not live answers. Reference agreement checks table values; it does not validate scientific reasoning.</p>
+    <div id="global-error" class="error" role="alert" hidden></div>
+    <div class="workspace"><aside class="catalog"><div class="catalog-heading"><h2>Question library</h2><span id="count">20</span></div><label for="search">Search questions</label><input type="search" id="search" placeholder="Try units, transit, ranking…"><label for="difficulty">Difficulty</label><select id="difficulty"><option value="all">All levels</option><option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option></select><nav id="questions" aria-label="Questions"></nav></aside>
+      <section id="detail" class="detail" tabindex="-1" aria-label="Selected question"><p>Loading verified evidence…</p></section>
+    </div>
+    <section class="history-section"><div class="section-heading"><div><p class="eyebrow">YOUR LOCAL SESSION</p><h2>Saved checks</h2></div><button id="refresh-history" class="secondary">Refresh checks</button></div><p class="muted">Reference replays and synthetic failures are labelled. None are model benchmark scores.</p><div id="history"></div></section>
+    <section class="pilot"><div><p class="eyebrow">HELP SHAPE THE BENCHMARK</p><h2>A small review can make a real difference.</h2></div><ol><li>Choose a question from your field.</li><li>Check the table, units, filters, and interpretation.</li><li>Use “Review” to record a specific correction.</li></ol><p>Feedback stays in this local installation. Share an exported review with the project owner when you are ready. Avoid personal or confidential information.</p></section>
+  </main><footer><span>ExoQuery-Bench · MIT licensed</span><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" rel="noreferrer">NASA archive column definitions ↗</a><span>No paid APIs · No account required</span></footer>
+</body></html>
