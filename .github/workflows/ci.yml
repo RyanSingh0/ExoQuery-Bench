@@ -1,0 +1,47 @@
+name: Foundation checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  offline:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install uv==0.12.3
+      - run: uv sync --locked
+      - run: uv run --no-sync ruff check .
+      - run: uv run --no-sync ruff format --check .
+      - run: uv run --no-sync pytest
+      - run: uv run --no-sync eqb doctor
+      - run: uv run --no-sync eqb replay
+      - run: uv build
+  container:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the local workbench image
+        run: docker build -t exoquery-test .
+      - name: Verify packaged evidence inside the image
+        run: docker run --rm exoquery-test python -m eqb.cli doctor
+      - name: Verify HTTP health and persistence directory
+        run: |
+          docker run -d --name exoquery-smoke -p 127.0.0.1:8765:8765 exoquery-test
+          for i in $(seq 1 30); do
+            if curl --fail http://127.0.0.1:8765/api/health; then exit 0; fi
+            sleep 1
+          done
+          docker logs exoquery-smoke
+          exit 1
+      - name: Clean up smoke test
+        if: always()
+        run: docker rm -f exoquery-smoke || true

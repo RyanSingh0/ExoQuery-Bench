@@ -1,0 +1,5305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VOTABLE version="1.3" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.3">
+  <RESOURCE type="results">
+  <INFO name="QUERY_STATUS" value="OK"/>
+  <TABLE>
+    <FIELD ID="table_name" arraysize="*" datatype="char" name="table_name">
+  <DESCRIPTION><![CDATA[ Table name ]]></DESCRIPTION>
+</FIELD>
+    <FIELD ID="column_name" arraysize="*" datatype="char" name="column_name">
+  <DESCRIPTION><![CDATA[ Column name ]]></DESCRIPTION>
+</FIELD>
+    <FIELD ID="datatype" arraysize="*" datatype="char" name="datatype">
+  <DESCRIPTION><![CDATA[ Column datatype ]]></DESCRIPTION>
+</FIELD>
+    <FIELD ID="unit" arraysize="*" datatype="char" name="unit">
+  <DESCRIPTION><![CDATA[ Column unit ]]></DESCRIPTION>
+</FIELD>
+    <FIELD ID="description" arraysize="*" datatype="char" name="description">
+  <DESCRIPTION><![CDATA[ Column description ]]></DESCRIPTION>
+</FIELD>
+    <DATA>
+      <TABLEDATA>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[ast_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Astrometric Variations]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[cb_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Circumbinary Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[dec]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Dec [decimal]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[decstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[ddmmss]]></TD>
+        <TD><![CDATA[Dec [sexagesimal]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[default_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Default Parameter Set]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[disc_facility]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Facility]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[disc_instrument]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Instrument]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[disc_locale]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Locale]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[disc_pubdate]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Publication Date]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[disc_refname]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[disc_telescope]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Telescope]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[disc_year]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Year]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[discoverymethod]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Method]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[dkin_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Disk Kinematics]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[elat]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Ecliptic Latitude [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[elon]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Ecliptic Longitude [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[etv_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Eclipse Timing Variations]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[gaia_dr2_id]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Gaia DR2 ID]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[gaia_dr3_id]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Gaia DR3 ID]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[glat]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Galactic Latitude [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[glon]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Galactic Longitude [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[hd_name]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[HD ID]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[hip_name]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[HIP ID]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[hostname]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Host Name]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[htm20]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Spatial Index]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[ima_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Imaging]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[micro_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Microlensing]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[obm_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Orbital Brightness Modulations]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_bmasse]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Earth Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_bmasseerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Earth Mass] Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_bmasseerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Earth Mass] Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_bmasselim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Earth Mass] Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_bmassestr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Earth Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_bmassj]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Jupiter Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_bmassjerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Jupiter Mass] Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_bmassjerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Jupiter Mass] Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_bmassjlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Jupiter Mass] Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_bmassjstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Jupiter Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_bmassprov]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) Provenance]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_cmasse]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i)/sin(i) [Earth Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_cmasseerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i)/sin(i) [Earth Mass] Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_cmasseerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i)/sin(i) [Earth Mass] Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_cmasselim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass*sin(i)/sin(i) [Earth Mass] Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_cmassestr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i)/sin(i) [Earth Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_cmassj]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i)/sin(i) [Jupiter Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_cmassjerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i)/sin(i) [Jupiter Mass] Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_cmassjerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i)/sin(i) [Jupiter Mass] Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_cmassjlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass*sin(i)/sin(i) [Jupiter Mass] Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_cmassjstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i)/sin(i) [Jupiter Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_controv_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Controversial Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_dens]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Planet Density [g/cm**3]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_denserr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Planet Density Upper Unc. [g/cm**3]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_denserr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Planet Density Lower Unc. [g/cm**3]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_denslim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Density Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_densstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Planet Density [g/cm**3]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_eqt]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Equilibrium Temperature [K]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_eqterr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Equilibrium Temperature Upper Unc. [K]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_eqterr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Equilibrium Temperature Lower Unc. [K]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_eqtlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Equilibrium Temperature Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_eqtstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Equilibrium Temperature [K]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_imppar]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Impact Parameter]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_impparerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Impact Parameter Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_impparerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Impact Parameter Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_impparlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Impact Parameter Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_impparstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Impact Parameter]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_insol]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Searth]]></TD>
+        <TD><![CDATA[Insolation Flux [Earth Flux]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_insolerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Searth]]></TD>
+        <TD><![CDATA[Insolation Flux Upper Unc. [Earth Flux]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_insolerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Searth]]></TD>
+        <TD><![CDATA[Insolation Flux Lower Unc. [Earth Flux]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_insollim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Insolation Flux Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_insolstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Searth]]></TD>
+        <TD><![CDATA[Insolation Flux [Earth Flux]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_letter]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Letter]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_masse]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass [Earth Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_masseerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass [Earth Mass] Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_masseerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass [Earth Mass] Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_masselim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass [Earth Mass] Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_massestr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass [Earth Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_massj]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass [Jupiter Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_massjerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass [Jupiter Mass] Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_massjerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass [Jupiter Mass] Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_massjlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass [Jupiter Mass] Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_massjstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass [Jupiter Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_msinie]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i) [Earth Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_msinieerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i) [Earth Mass] Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_msinieerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i) [Earth Mass] Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_msinielim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass*sin(i) [Earth Mass] Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_msiniestr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Mearth]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i) [Earth Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_msinij]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i) [Jupiter Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_msinijerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i) [Jupiter Mass] Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_msinijerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i) [Jupiter Mass] Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_msinijlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass*sin(i) [Jupiter Mass] Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_msinijstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Mjupiter]]></TD>
+        <TD><![CDATA[Planet Mass*sin(i) [Jupiter Mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_name]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Name]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_ndispec]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Direct Imaging Spectra]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_nespec]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Eclipse Spectra]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_nnotes]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Notes]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_ntranspec]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Transmission Spectra]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_occdep]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Occultation Depth [%]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_occdeperr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Occultation Depth Upper Unc. [%]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_occdeperr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Occultation Depth Lower Unc. [%]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_occdeplim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Occultation Depth Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_occdepstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Occultation Depth [%]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbeccen]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Eccentricity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbeccenerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Eccentricity Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbeccenerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Eccentricity Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbeccenlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Eccentricity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbeccenstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Eccentricity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbincl]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Inclination [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbinclerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Inclination Upper Unc. [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbinclerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Inclination Lower Unc. [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbincllim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Inclination Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbinclstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Inclination [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orblper]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Argument of Periastron [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orblpererr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Argument of Periastron Upper Unc. [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orblpererr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Argument of Periastron Lower Unc. [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orblperlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Argument of Periastron Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orblperstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Argument of Periastron [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbper]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Orbital Period [day]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbpererr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Orbital Period Upper Unc. [day]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbpererr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Orbital Period Lower Unc. [day]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbperlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Orbital Period Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbperstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Orbital Period [day]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbsmax]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[au]]></TD>
+        <TD><![CDATA[Orbit Semi-Major Axis [au]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbsmaxerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[au]]></TD>
+        <TD><![CDATA[Orbit Semi-Major Axis Upper Unc. [au]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbsmaxerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[au]]></TD>
+        <TD><![CDATA[Orbit Semi-Major Axis Lower Unc. [au]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbsmaxlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Orbit Semi-Major Axis Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbsmaxstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[au]]></TD>
+        <TD><![CDATA[Orbit Semi-Major Axis [au]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbtper]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Epoch of Periastron [day]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbtpererr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Epoch of Periastron Upper Unc. [day]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbtpererr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Epoch of Periastron Lower Unc. [day]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbtperlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Epoch of Periastron Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_orbtperstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Epoch of Periastron [day]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_projobliq]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Projected Obliquity [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_projobliqerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Projected Obliquity Upper Unc. [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_projobliqerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Projected Obliquity Lower Unc. [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_projobliqlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Projected Obliquity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_projobliqstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Projected Obliquity [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_pubdate]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planetary Parameter Reference Publication Date]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_rade]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Rearth]]></TD>
+        <TD><![CDATA[Planet Radius [Earth Radius]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_radeerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Rearth]]></TD>
+        <TD><![CDATA[Planet Radius Upper Unc. [Earth Radius]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_radeerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Rearth]]></TD>
+        <TD><![CDATA[Planet Radius Lower Unc. [Earth Radius]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_radelim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Radius Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_radestr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Rearth]]></TD>
+        <TD><![CDATA[Planet Radius [Earth Radius]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_radj]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Rjupiter]]></TD>
+        <TD><![CDATA[Planet Radius [Jupiter Radius]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_radjerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Rjupiter]]></TD>
+        <TD><![CDATA[Planet Radius Upper Unc. [Jupiter Radius]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_radjerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Rjupiter]]></TD>
+        <TD><![CDATA[Planet Radius Lower Unc. [Jupiter Radius]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_radjlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Radius Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_radjstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Rjupiter]]></TD>
+        <TD><![CDATA[Planet Radius [Jupiter Radius]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_ratdor]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Semi-Major Axis to Stellar Radius]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_ratdorerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Semi-Major Axis to Stellar Radius Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_ratdorerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Semi-Major Axis to Stellar Radius Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_ratdorlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Semi-Major Axis to Stellar Radius Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_ratdorstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Semi-Major Axis to Stellar Radius]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_ratror]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Planet to Stellar Radius]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_ratrorerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Planet to Stellar Radius Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_ratrorerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Planet to Stellar Radius Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_ratrorlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Planet to Stellar Radius Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_ratrorstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Planet to Stellar Radius]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_refname]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planetary Parameter Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_rvamp]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[m/s]]></TD>
+        <TD><![CDATA[Radial Velocity Amplitude [m/s]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_rvamperr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[m/s]]></TD>
+        <TD><![CDATA[Radial Velocity Amplitude Upper Unc. [m/s]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_rvamperr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[m/s]]></TD>
+        <TD><![CDATA[Radial Velocity Amplitude Lower Unc. [m/s]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_rvamplim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Radial Velocity Amplitude Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_rvampstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[m/s]]></TD>
+        <TD><![CDATA[Radial Velocity Amplitude [m/s]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_trandep]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Transit Depth [%]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_trandeperr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Transit Depth Upper Unc. [%]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_trandeperr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Transit Depth Lower Unc. [%]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_trandeplim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Transit Depth Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_trandepstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Transit Depth [%]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_trandur]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[hour]]></TD>
+        <TD><![CDATA[Transit Duration [hour]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_trandurerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[hour]]></TD>
+        <TD><![CDATA[Transit Duration Upper Unc. [hour]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_trandurerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[hour]]></TD>
+        <TD><![CDATA[Transit Duration Lower Unc. [hour]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_trandurlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Transit Duration Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_trandurstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[hour]]></TD>
+        <TD><![CDATA[Transit Duration [hour]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_tranmid]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Transit Midpoint [day]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_tranmiderr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Transit Midpoint Upper Unc. [day]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_tranmiderr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Transit Midpoint Lower Unc. [day]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_tranmidlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Transit Midpoint Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_tranmidstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Time of Conjunction (Transit Midpoint) [day]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_trueobliq]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[True Obliquity [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_trueobliqerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[True Obliquity Upper Unc. [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_trueobliqerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[True Obliquity Lower Unc. [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_trueobliqlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[True Obliquity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_trueobliqstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[True Obliquity [deg]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pl_tsystemref]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Time Reference Frame and Standard]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[ptv_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Pulsation Timing Variations]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[pul_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Pulsar Timing Variations]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[ra]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[RA [decimal]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[rastr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[hhmmss]]></TD>
+        <TD><![CDATA[RA [sexagesimal]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[releasedate]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Release Date]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[rowupdate]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Date of Last Update]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[rv_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Radial Velocity Variations]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[soltype]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Solution Type]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_age]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Gyr]]></TD>
+        <TD><![CDATA[Stellar Age [Gyr]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_ageerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Gyr]]></TD>
+        <TD><![CDATA[Stellar Age Upper Unc. [Gyr]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_ageerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Gyr]]></TD>
+        <TD><![CDATA[Stellar Age Lower Unc. [Gyr]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_agelim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Age Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_agestr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Gyr]]></TD>
+        <TD><![CDATA[Stellar Age [Gyr]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_dens]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Stellar Density [g/cm**3]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_denserr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Stellar Density Upper Unc. [g/cm**3]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_denserr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Stellar Density Lower Unc. [g/cm**3]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_denslim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Density Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_densstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Stellar Density [g/cm**3]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_logg]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[log(cm/s**2)]]></TD>
+        <TD><![CDATA[Stellar Surface Gravity [log(cm/s**2)]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_loggerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[log(cm/s**2)]]></TD>
+        <TD><![CDATA[Stellar Surface Gravity Upper Unc. [log(cm/s**2)]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_loggerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[log(cm/s**2)]]></TD>
+        <TD><![CDATA[Stellar Surface Gravity Lower Unc. [log(cm/s**2)]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_logglim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Surface Gravity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_loggstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[log(cm/s**2)]]></TD>
+        <TD><![CDATA[Stellar Surface Gravity [log(cm/s**2)]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_lum]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[log(Lsun)]]></TD>
+        <TD><![CDATA[Stellar Luminosity [log(Solar)]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_lumerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[log(Lsun)]]></TD>
+        <TD><![CDATA[Stellar Luminosity Upper Unc. [log(Solar)]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_lumerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[log(Lsun)]]></TD>
+        <TD><![CDATA[Stellar Luminosity Lower Unc. [log(Solar)]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_lumlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Luminosity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_lumstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[log(Lsun)]]></TD>
+        <TD><![CDATA[Stellar Luminosity [log(Solar)]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_mass]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Msun]]></TD>
+        <TD><![CDATA[Stellar Mass [Solar mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_masserr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Msun]]></TD>
+        <TD><![CDATA[Stellar Mass Upper Unc. [Solar mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_masserr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Msun]]></TD>
+        <TD><![CDATA[Stellar Mass Lower Unc. [Solar mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_masslim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Mass Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_massstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Msun]]></TD>
+        <TD><![CDATA[Stellar Mass [Solar mass]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_met]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[dex]]></TD>
+        <TD><![CDATA[Stellar Metallicity [dex]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_meterr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[dex]]></TD>
+        <TD><![CDATA[Stellar Metallicity Upper Unc. [dex]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_meterr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[dex]]></TD>
+        <TD><![CDATA[Stellar Metallicity Lower Unc. [dex]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_metlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Metallicity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_metratio]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Metallicity Ratio]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_metstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[dex]]></TD>
+        <TD><![CDATA[Stellar Metallicity [dex]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_nphot]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Photometry Time Series]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_nrvc]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Radial Velocity Time Series]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_nspec]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Stellar Spectra Measurements]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_rad]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Rsun]]></TD>
+        <TD><![CDATA[Stellar Radius [Solar Radius]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_raderr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Rsun]]></TD>
+        <TD><![CDATA[Stellar Radius Upper Unc. [Solar Radius]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_raderr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Rsun]]></TD>
+        <TD><![CDATA[Stellar Radius Lower Unc. [Solar Radius]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_radlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Radius Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_radstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Rsun]]></TD>
+        <TD><![CDATA[Stellar Radius [Solar Radius]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_radv]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[km/s]]></TD>
+        <TD><![CDATA[Systemic Radial Velocity [km/s]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_radverr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[km/s]]></TD>
+        <TD><![CDATA[Systemic Radial Velocity Upper Unc. [km/s]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_radverr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[km/s]]></TD>
+        <TD><![CDATA[Systemic Radial Velocity Lower Unc. [km/s]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_radvlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Systemic Radial Velocity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_radvstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[km/s]]></TD>
+        <TD><![CDATA[Systemic Radial Velocity [km/s]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_refname]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Parameter Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_rotp]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Stellar Rotational Period [day]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_rotperr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Stellar Rotational Period [day] Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_rotperr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Stellar Rotational Period [day] Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_rotplim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Rotational Period Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_rotpstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[day]]></TD>
+        <TD><![CDATA[Stellar Rotational Period [day]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_spectype]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Spectral Type]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_teff]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Stellar Effective Temperature [K]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_tefferr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Stellar Effective Temperature Upper Unc. [K]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_tefferr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Stellar Effective Temperature Lower Unc. [K]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_tefflim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Effective Temperature Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_teffstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Stellar Effective Temperature [K]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_vsin]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[km/s]]></TD>
+        <TD><![CDATA[Stellar Rotational Velocity [km/s]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_vsinerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[km/s]]></TD>
+        <TD><![CDATA[Stellar Rotational Velocity [km/s] Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_vsinerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[km/s]]></TD>
+        <TD><![CDATA[Stellar Rotational Velocity [km/s] Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_vsinlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Rotational Velocity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[st_vsinstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[km/s]]></TD>
+        <TD><![CDATA[Stellar Rotational Velocity [km/s]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_bmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[B (Johnson) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_bmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[B (Johnson) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_bmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[B (Johnson) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_bmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[B (Johnson) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_dist]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[pc]]></TD>
+        <TD><![CDATA[Distance [pc]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_disterr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[pc]]></TD>
+        <TD><![CDATA[Distance [pc] Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_disterr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[pc]]></TD>
+        <TD><![CDATA[Distance [pc] Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_diststr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[pc]]></TD>
+        <TD><![CDATA[Distance [pc]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_gaiamag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[Gaia Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_gaiamagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[Gaia Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_gaiamagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[Gaia Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_gaiamagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[Gaia Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_gmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[g (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_gmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[g (Sloan) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_gmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[g (Sloan) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_gmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[g (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_hmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[H (2MASS) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_hmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[H (2MASS) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_hmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[H (2MASS) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_hmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[H (2MASS) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_icmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[I (Cousins) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_icmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[I (Cousins) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_icmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[I (Cousins) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_icmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[I (Cousins) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_imag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[i (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_imagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[i (Sloan) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_imagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[i (Sloan) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_imagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[i (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_jmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[J (2MASS) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_jmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[J (2MASS) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_jmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[J (2MASS) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_jmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[J (2MASS) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_kepmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[Kepler Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_kepmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[Kepler Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_kepmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[Kepler Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_kepmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[Kepler Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_kmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[Ks (2MASS) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_kmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[Ks (2MASS) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_kmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[Ks (2MASS) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_kmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[Ks (2MASS) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_mnum]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Moons]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_plx]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas]]></TD>
+        <TD><![CDATA[Parallax [mas]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_plxerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas]]></TD>
+        <TD><![CDATA[Parallax [mas] Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_plxerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas]]></TD>
+        <TD><![CDATA[Parallax [mas] Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_plxstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mas]]></TD>
+        <TD><![CDATA[Parallax [mas]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_pm]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Total Proper Motion [mas/yr]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_pmdec]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Proper Motion (Dec) [mas/yr]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_pmdecerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Proper Motion (Dec) [mas/yr] Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_pmdecerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Proper Motion (Dec) [mas/yr] Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_pmdecstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Proper Motion (Dec) [mas/yr]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_pmerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Total Proper Motion Upper Unc [mas/yr]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_pmerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Total Proper Motion Lower Unc [mas/yr]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_pmra]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Proper Motion (RA) [mas/yr]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_pmraerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Proper Motion (RA) [mas/yr] Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_pmraerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Proper Motion (RA) [mas/yr] Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_pmrastr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Proper Motion (RA) [mas/yr]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_pmstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Total Proper Motion [mas/yr]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_pnum]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Planets]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_refname]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[System Parameter Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_rmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[r (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_rmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[r (Sloan) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_rmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[r (Sloan) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_rmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[r (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_snum]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Stars]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_tmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[TESS Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_tmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[TESS Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_tmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[TESS Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_tmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[TESS Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_umag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[u (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_umagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[u (Sloan) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_umagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[u (Sloan) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_umagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[u (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_vmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[V (Johnson) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_vmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[V (Johnson) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_vmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[V (Johnson) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_vmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[V (Johnson) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w1mag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W1 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w1magerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W1 (WISE) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w1magerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W1 (WISE) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w1magstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W1 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w2mag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W2 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w2magerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W2 (WISE) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w2magerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W2 (WISE) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w2magstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W2 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w3mag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W3 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w3magerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W3 (WISE) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w3magerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W3 (WISE) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w3magstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W3 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w4mag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W4 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w4magerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W4 (WISE) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w4magerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W4 (WISE) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_w4magstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[W4 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_zmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[z (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_zmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[z (Sloan) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_zmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[z (Sloan) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[sy_zmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mag]]></TD>
+        <TD><![CDATA[z (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[tic_id]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[TIC ID]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[tran_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Transits]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[ttv_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Data show Transit Timing Variations]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[x]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Spatial Coordinate X]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[y]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Spatial Coordinate Y]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[ps]]></TD>
+        <TD><![CDATA[z]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Spatial Coordinate Z]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[ast_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Astrometric Variations]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[cb_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Circumbinary Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[dec]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Dec [decimal]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[decstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[sexagesimal]]></TD>
+        <TD><![CDATA[Dec]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[disc_facility]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Facility]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[disc_instrument]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Instrument]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[disc_locale]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Locale]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[disc_pubdate]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Publication Date]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[disc_refname]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[disc_telescope]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Telescope]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[disc_year]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Year]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[discoverymethod]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Discovery Method]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[dkin_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Disk Kinematics]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[elat]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Ecliptic Latitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[elon]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Ecliptic Longitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[etv_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Eclipse Timing Variations]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[gaia_dr2_id]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Gaia DR2_ID]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[gaia_dr3_id]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Gaia DR3_ID]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[glat]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Galactic Latitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[glon]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Galactic Longitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[hd_name]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[HD ID]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[hip_name]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[HIP ID]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[hostname]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Host Name]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[htm20]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Spatial Index]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[ima_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Imaging]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[micro_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Microlensing]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[obm_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Orbital Brightness Modulations]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_angsep]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas]]></TD>
+        <TD><![CDATA[Angular Separation]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_angsep_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Angular Separation Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_angseperr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas]]></TD>
+        <TD><![CDATA[Angular Separation Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_angseperr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas]]></TD>
+        <TD><![CDATA[Angular Separation Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_angseplim]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Angular Separation Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_angsepstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mas]]></TD>
+        <TD><![CDATA[Angular Separation]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_bmasse]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Earth Mass]]></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i)]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_bmasse_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Earth Mass] Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_bmasseerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Earth Mass] Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_bmasseerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Earth Mass] Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_bmasselim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Earth Mass] Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_bmassestr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Earth Mass]]></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i)]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_bmassj]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Jupiter Mass]]></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i)]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_bmassj_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Jupiter Mass] Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_bmassjerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Jupiter Mass] Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_bmassjerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Jupiter Mass] Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_bmassjlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) [Jupiter Mass] Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_bmassjstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Jupiter Mass]]></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i)]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_bmassprov]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Mass or Mass*sin(i) Provenance]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_controv_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Controversial Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_dens]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Planet Density]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_dens_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Density Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_denserr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Planet Density Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_denserr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Planet Density Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_denslim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Density Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_densstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Planet Density]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_eqt]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Equilibrium Temperature]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_eqt_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Equilibrium Temperature Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_eqterr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Equilibrium Temperature Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_eqterr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Equilibrium Temperature Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_eqtlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Equilibrium Temperature Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_eqtstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Equilibrium Temperature]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_esm]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Emission Spectroscopy Metric]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_esm_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Emission Spectroscopy Metric]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_esm_solnid]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Emission Spectroscopy Metric]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_esmerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Emission Spectroscopy Metric]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_esmerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Emission Spectroscopy Metric]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_esmlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Emission Spectroscopy Metric Limit]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_esmstr]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Emission Spectroscopy Metric Symmetric Error]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_imppar]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Impact Parameter]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_imppar_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Impact Parameter Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_impparerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Impact Parameter Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_impparerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Impact Parameter Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_impparlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Impact Parameter Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_impparstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Impact Parameter]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_insol]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Earth Flux]]></TD>
+        <TD><![CDATA[Insolation Flux]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_insol_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Insolation Flux Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_insolerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Earth Flux]]></TD>
+        <TD><![CDATA[Insolation Flux Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_insolerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Earth Flux]]></TD>
+        <TD><![CDATA[Insolation Flux Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_insollim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Insolation Flux Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_insolstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Earth Flux]]></TD>
+        <TD><![CDATA[Insolation Flux]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_letter]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Letter]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_name]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Name]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_ndispec]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Direct Imaging Spectra]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_nespec]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Eclipse Spectra]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_nnotes]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Notes]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_nobs_jwst_di]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of JWST Observations - Direct Imaging]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_nobs_jwst_e]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of JWST Observations - Exclipse]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_nobs_jwst_pc]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of JWST Observations - Phase Curve]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_nobs_jwst_tran]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of JWST Observations - Transit]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_ntranspec]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Transmission Spectra]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_occdep]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Occultation Depth]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_occdep_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Occultation Depth Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_occdeperr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Occultation Depth Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_occdeperr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Occultation Depth Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_occdeplim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Occultation Depth Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_occdepstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Occultation Depth]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbeccen]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Eccentricity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbeccen_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Eccentricity Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbeccenerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Eccentricity Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbeccenerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Eccentricity Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbeccenlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Eccentricity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbeccenstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Eccentricity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbincl]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Inclination]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbincl_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Inclination Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbinclerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Inclination Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbinclerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Inclination Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbincllim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Inclination Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbinclstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Inclination]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orblper]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Argument of Periastron]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orblper_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Argument of Periastron Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orblpererr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Argument of Periastron Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orblpererr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Argument of Periastron Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orblperlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Argument of Periastron Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orblperstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Argument of Periastron]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbper]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[days]]></TD>
+        <TD><![CDATA[Orbital Period]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbper_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Orbital Period Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbpererr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[days]]></TD>
+        <TD><![CDATA[Orbital Period Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbpererr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[days]]></TD>
+        <TD><![CDATA[Orbital Period Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbperlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Orbital Period Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbperstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[days]]></TD>
+        <TD><![CDATA[Orbital Period]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbsmax]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Orbit Semi-Major Axis [au])]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbsmax_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Orbit Semi-Major Axis Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbsmaxerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[au]]></TD>
+        <TD><![CDATA[Orbit Semi-Major Axis Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbsmaxerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[au]]></TD>
+        <TD><![CDATA[Orbit Semi-Major Axis Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbsmaxlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Orbit Semi-Major Axis Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbsmaxstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[au]]></TD>
+        <TD><![CDATA[Orbit Semi-Major Axis]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbtper]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[days]]></TD>
+        <TD><![CDATA[Epoch of Periastron]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbtper_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Epoch of Periastron Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbtper_systemref]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Time Solnid Frame and Standard]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbtpererr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[days]]></TD>
+        <TD><![CDATA[Epoch of Periastron Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbtpererr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[days]]></TD>
+        <TD><![CDATA[Epoch of Periastron Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbtperlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Epoch of Periastron Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_orbtperstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[days]]></TD>
+        <TD><![CDATA[Epoch of Periastron]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_projobliq]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Projected Obliquity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_projobliq_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Projected Obliquity Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_projobliqerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Projected Obliquity Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_projobliqerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Projected Obliquity Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_projobliqlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Projected Obliquity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_projobliqstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[Projected Obliquity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_rade]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Earth Radius]]></TD>
+        <TD><![CDATA[Planet Radius]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_rade_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Radius Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_radeerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Earth Radius]]></TD>
+        <TD><![CDATA[Planet Radius Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_radeerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Earth Radius]]></TD>
+        <TD><![CDATA[Planet Radius Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_radelim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Radius Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_radestr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Earth Radius]]></TD>
+        <TD><![CDATA[Planet Radius]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_radj]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Jupiter Radius]]></TD>
+        <TD><![CDATA[Planet Radius]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_radj_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Radius Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_radjerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Jupiter Radius]]></TD>
+        <TD><![CDATA[Planet Radius Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_radjerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Jupiter Radius]]></TD>
+        <TD><![CDATA[Planet Radius Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_radjlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Planet Radius Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_radjstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Jupiter Radius]]></TD>
+        <TD><![CDATA[Planet Radius]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_ratdor]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Semi-Major Axis to Stellar Radius]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_ratdor_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Semi-Major Axis to Stellar Radius Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_ratdorerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Semi-Major Axis to Stellar Radius Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_ratdorerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Semi-Major Axis to Stellar Radius Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_ratdorlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Semi-Major Axis to Stellar Radius Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_ratdorstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Semi-Major Axis to Stellar Radius]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_ratror]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Planet to Stellar Radius]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_ratror_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Planet to Stellar Radius Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_ratrorerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Planet to Stellar Radius Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_ratrorerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Planet to Stellar Radius Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_ratrorlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Planet to Stellar Radius Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_ratrorstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ratio of Planet to Stellar Radius]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_rvamp]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[m/s]]></TD>
+        <TD><![CDATA[Radial Velocity Amplitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_rvamp_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Radial Velocity Amplitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_rvamperr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[m/s]]></TD>
+        <TD><![CDATA[Radial Velocity Amplitude Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_rvamperr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[m/s]]></TD>
+        <TD><![CDATA[Radial Velocity Amplitude Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_rvamplim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Radial Velocity Amplitude Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_rvampstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[m/s]]></TD>
+        <TD><![CDATA[Radial Velocity Amplitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trandep]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Transit Depth]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trandep_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Transit Depth Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trandeperr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Transit Depth Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trandeperr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Transit Depth Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trandeplim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Transit Depth Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trandepstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[%]]></TD>
+        <TD><![CDATA[Transit Depth]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trandur]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[hours]]></TD>
+        <TD><![CDATA[Transit Duration]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trandur_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Transit Duration Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trandurerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[hours]]></TD>
+        <TD><![CDATA[Transit Duration Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trandurerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[hours]]></TD>
+        <TD><![CDATA[Transit Duration Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trandurlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Transit Duration Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trandurstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[hours]]></TD>
+        <TD><![CDATA[Transit Duration]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_tranmid]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[days]]></TD>
+        <TD><![CDATA[Transit Midpoint]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_tranmid_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Time of Conjunction (Transit Midpoint) Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_tranmid_systemref]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Time Reference Frame and Standard]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_tranmiderr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[days]]></TD>
+        <TD><![CDATA[Transit Midpoint Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_tranmiderr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[days]]></TD>
+        <TD><![CDATA[Transit Midpoint Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_tranmidlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Transit Midpoint Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_tranmidstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[days]]></TD>
+        <TD><![CDATA[Time of Conjunction (Transit Midpoint)]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trueobliq]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[True Obliquity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trueobliq_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[True Obliquity Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trueobliqerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[True Obliquity Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trueobliqerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[True Obliquity Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trueobliqlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[True Obliquity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_trueobliqstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[True Obliquity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_tsm]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Transit Spectroscopy Metric]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_tsm_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Transit Spectroscopy Metric]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_tsm_solnid]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Transit Spectroscopy Metric]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_tsmerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Transit Spectroscopy Metric]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_tsmerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Transit Spectroscopy Metric]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_tsmlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Transit Spectroscopy Metric Limit]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pl_tsmstr]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Transit Spectroscopy Metric Symmetric Error]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[ptv_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Pulsation Timing Variations]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[pul_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Pulsar Timing Variations]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[ra]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[deg]]></TD>
+        <TD><![CDATA[RA [decimal]]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[ra_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[RA Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[rastr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[sexagesimal]]></TD>
+        <TD><![CDATA[RA]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[rv_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Radial Velocity Variations]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_age]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Gyr]]></TD>
+        <TD><![CDATA[Stellar Age]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_age_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Age Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_ageerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Gyr]]></TD>
+        <TD><![CDATA[Stellar Age Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_ageerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Gyr]]></TD>
+        <TD><![CDATA[Stellar Age Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_agelim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Age Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_agestr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Gyr]]></TD>
+        <TD><![CDATA[Stellar Age]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_dens]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Stellar Density]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_dens_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Density Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_denserr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Stellar Density Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_denserr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Stellar Density Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_denslim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Density Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_densstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[g/cm**3]]></TD>
+        <TD><![CDATA[Stellar Density]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_logg]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[log10(cm/s**2)]]></TD>
+        <TD><![CDATA[Stellar Surface Gravity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_logg_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Surface Gravity Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_loggerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[log10(cm/s**2)]]></TD>
+        <TD><![CDATA[Stellar Surface Gravity Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_loggerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[log10(cm/s**2)]]></TD>
+        <TD><![CDATA[Stellar Surface Gravity Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_logglim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Surface Gravity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_loggstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[log10(cm/s**2)]]></TD>
+        <TD><![CDATA[Stellar Surface Gravity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_lum]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[log(Solar)]]></TD>
+        <TD><![CDATA[Stellar Luminosity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_lum_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Luminosity Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_lumerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[log(Solar)]]></TD>
+        <TD><![CDATA[Stellar Luminosity Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_lumerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[log(Solar)]]></TD>
+        <TD><![CDATA[Stellar Luminosity Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_lumlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Luminosity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_lumstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[log(Solar)]]></TD>
+        <TD><![CDATA[Stellar Luminosity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_mass]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Solar mass]]></TD>
+        <TD><![CDATA[Stellar Mass]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_mass_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Mass Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_masserr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Solar mass]]></TD>
+        <TD><![CDATA[Stellar Mass Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_masserr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Solar mass]]></TD>
+        <TD><![CDATA[Stellar Mass Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_masslim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Mass Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_massstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Solar mass]]></TD>
+        <TD><![CDATA[Stellar Mass]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_met]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[dex]]></TD>
+        <TD><![CDATA[Stellar Metallicity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_met_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Metallicity Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_meterr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[dex]]></TD>
+        <TD><![CDATA[Stellar Metallicity Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_meterr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[dex]]></TD>
+        <TD><![CDATA[Stellar Metallicity Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_metlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Metallicity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_metratio]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Metallicity Ratio]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_metstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[dex]]></TD>
+        <TD><![CDATA[Stellar Metallicity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_nphot]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Photometry Time Series]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_nrvc]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Radial Velocity Time Series]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_nspec]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Stellar Spectra Measurements]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_rad]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Solar Radius]]></TD>
+        <TD><![CDATA[Stellar Radius]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_rad_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Radius Refence]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_raderr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Solar Radius]]></TD>
+        <TD><![CDATA[Stellar Radius Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_raderr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[Solar Radius]]></TD>
+        <TD><![CDATA[Stellar Radius Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_radlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Radius Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_radstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[Solar Radius]]></TD>
+        <TD><![CDATA[Stellar Radius]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_radv]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[km/s]]></TD>
+        <TD><![CDATA[Systemic Radial Velocity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_radv_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Systemic Radial Velocity Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_radverr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[km/s]]></TD>
+        <TD><![CDATA[Systemic Radial Velocity Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_radverr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[km/s]]></TD>
+        <TD><![CDATA[Systemic Radial Velocity Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_radvlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Systemic Radial Velocity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_radvstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[km/s]]></TD>
+        <TD><![CDATA[Systemic Radial Velocity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_rotp]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[days]]></TD>
+        <TD><![CDATA[Stellar Rotational Period]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_rotp_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Rotational Period Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_rotperr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Rotational Period [days] Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_rotperr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Rotational Period [days] Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_rotplim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Rotational Period Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_rotpstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[days]]></TD>
+        <TD><![CDATA[Stellar Rotational Period]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_spectype]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Spectral Type]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_spectype_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Spectral Type Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_teff]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Stellar Effective Temperature]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_teff_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Effective Temperature Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_tefferr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Stellar Effective Temperature Upper Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_tefferr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Stellar Effective Temperature Lower Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_tefflim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Effective Temperature Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_teffstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[K]]></TD>
+        <TD><![CDATA[Stellar Effective Temperature]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_vsin]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[km/s]]></TD>
+        <TD><![CDATA[Stellar Rotational Velocity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_vsin_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Rotational Velocity Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_vsinerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Rotational Velocity [km/s] Upper Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_vsinerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Rotational Velocity [km/s] Lower Unc.]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_vsinlim]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Stellar Rotational Velocity Limit Flag]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[st_vsinstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[km/s]]></TD>
+        <TD><![CDATA[Stellar Rotational Velocity]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_bmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[B (Johnson) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_bmag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[B (Johnson) Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_bmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[B (Johnson) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_bmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[B (Johnson) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_bmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[B (Johnson) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_dist]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[pc]]></TD>
+        <TD><![CDATA[Distance]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_dist_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Distance Refence]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_disterr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Distance [pc] Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_disterr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Distance [pc] Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_diststr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[pc]]></TD>
+        <TD><![CDATA[Distance]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_gaiamag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Gaia Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_gaiamag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Gaia Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_gaiamagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Gaia Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_gaiamagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Gaia Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_gaiamagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Gaia Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_gmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[g (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_gmag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[g (Sloan) Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_gmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[g (Sloan) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_gmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[g (Sloan) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_gmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[g (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_hmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[H (2MASS) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_hmag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[H (2MASS) Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_hmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[H (2MASS) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_hmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[H (2MASS) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_hmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[H (2MASS) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_icmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[I (Cousins) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_icmag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[I (Cousins) Magnitude Solnid]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_icmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[I (Cousins) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_icmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[I (Cousins) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_icmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[I (Cousins) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_imag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[i (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_imag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[i (Sloan) Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_imagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[i (Sloan) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_imagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[i (Sloan) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_imagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[i (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_jmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[J (2MASS) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_jmag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[J (2MASS) Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_jmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[J (2MASS) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_jmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[J (2MASS) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_jmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[J (2MASS) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_kepmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Kepler Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_kepmag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Kepler Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_kepmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Kepler Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_kepmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Kepler Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_kepmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Kepler Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_kmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ks (2MASS) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_kmag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ks (2MASS) Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_kmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ks (2MASS) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_kmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ks (2MASS) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_kmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Ks (2MASS) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_mnum]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Moons]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_plx]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas]]></TD>
+        <TD><![CDATA[Parallax]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_plx_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Parallax Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_plxerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Parallax [mas] Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_plxerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Parallax [mas] Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_plxstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mas]]></TD>
+        <TD><![CDATA[Parallax]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_pm]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Total Proper Motion]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_pm_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Total Proper Motion Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_pmdec]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Proper Motion (Dec)]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_pmdecerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Proper Motion (Dec) [mas/yr] Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_pmdecerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Proper Motion (Dec) [mas/yr] Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_pmdecstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Proper Motion (Dec)]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_pmerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Total Proper Motion Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_pmerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Total Proper Motion Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_pmra]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Proper Motion (RA)]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_pmraerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Proper Motion (RA) [mas/yr] Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_pmraerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Proper Motion (RA) [mas/yr] Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_pmrastr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Proper Motion (RA)]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_pmstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD><![CDATA[mas/yr]]></TD>
+        <TD><![CDATA[Total Proper Motion]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_pnum]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Planets]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_rmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[r (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_rmag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[r (Sloan) Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_rmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[r (Sloan) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_rmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[r (Sloan) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_rmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[r (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_snum]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Number of Stars]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_tmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[TESS Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_tmag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[TESS Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_tmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[TESS Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_tmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[TESS Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_tmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[TESS Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_umag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[u (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_umag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[u (Sloan) Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_umagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[u (Sloan) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_umagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[u (Sloan) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_umagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[u (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_vmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[V (Johnson) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_vmag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[V (Johnson) Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_vmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[V (Johnson) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_vmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[V (Johnson) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_vmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[V (Johnson) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w1mag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W1 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w1mag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W1 (WISE) Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w1magerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W1 (WISE) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w1magerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W1 (WISE) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w1magstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W1 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w2mag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W2 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w2mag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W2 (WISE) Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w2magerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W2 (WISE) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w2magerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W2 (WISE) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w2magstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W2 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w3mag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W3 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w3mag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W3 (WISE) Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w3magerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W3 (WISE) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w3magerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W3 (WISE) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w3magstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W3 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w4mag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W4 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w4mag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W4 (WISE) Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w4magerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W4 (WISE) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w4magerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W4 (WISE) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_w4magstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[W4 (WISE) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_zmag]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[z (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_zmag_reflink]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[z (Sloan) Magnitude Reference]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_zmagerr1]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[z (Sloan) Magnitude Upper Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_zmagerr2]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[z (Sloan) Magnitude Lower Unc]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[sy_zmagstr]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[z (Sloan) Magnitude]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[tic_id]]></TD>
+        <TD><![CDATA[char]]></TD>
+        <TD></TD>
+        <TD><![CDATA[TIC ID]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[tran_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Detected by Transits]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[ttv_flag]]></TD>
+        <TD><![CDATA[int]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Data show Transit Timing Variations]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[x]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Spatial Coordinate X]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[y]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Spatial Coordinate Y]]></TD>
+        </TR>
+        <TR>
+        <TD><![CDATA[pscomppars]]></TD>
+        <TD><![CDATA[z]]></TD>
+        <TD><![CDATA[double]]></TD>
+        <TD></TD>
+        <TD><![CDATA[Spatial Coordinate Z]]></TD>
+        </TR>
+      </TABLEDATA>
+    </DATA>
+  </TABLE>
+  </RESOURCE>
+</VOTABLE>

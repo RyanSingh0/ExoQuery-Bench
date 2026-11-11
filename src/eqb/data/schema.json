@@ -1,0 +1,5303 @@
+{
+  "status": "ok",
+  "rows": [
+    {
+      "table_name": "ps",
+      "column_name": "ast_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Astrometric Variations"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "cb_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Circumbinary Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "dec",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Dec [decimal]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "decstr",
+      "datatype": "char",
+      "unit": "ddmmss",
+      "description": "Dec [sexagesimal]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "default_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Default Parameter Set"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "disc_facility",
+      "datatype": "char",
+      "unit": "",
+      "description": "Discovery Facility"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "disc_instrument",
+      "datatype": "char",
+      "unit": "",
+      "description": "Discovery Instrument"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "disc_locale",
+      "datatype": "char",
+      "unit": "",
+      "description": "Discovery Locale"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "disc_pubdate",
+      "datatype": "char",
+      "unit": "",
+      "description": "Discovery Publication Date"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "disc_refname",
+      "datatype": "char",
+      "unit": "",
+      "description": "Discovery Reference"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "disc_telescope",
+      "datatype": "char",
+      "unit": "",
+      "description": "Discovery Telescope"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "disc_year",
+      "datatype": "int",
+      "unit": "",
+      "description": "Discovery Year"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "discoverymethod",
+      "datatype": "char",
+      "unit": "",
+      "description": "Discovery Method"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "dkin_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Disk Kinematics"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "elat",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Ecliptic Latitude [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "elon",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Ecliptic Longitude [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "etv_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Eclipse Timing Variations"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "gaia_dr2_id",
+      "datatype": "char",
+      "unit": "",
+      "description": "Gaia DR2 ID"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "gaia_dr3_id",
+      "datatype": "char",
+      "unit": "",
+      "description": "Gaia DR3 ID"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "glat",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Galactic Latitude [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "glon",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Galactic Longitude [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "hd_name",
+      "datatype": "char",
+      "unit": "",
+      "description": "HD ID"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "hip_name",
+      "datatype": "char",
+      "unit": "",
+      "description": "HIP ID"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "hostname",
+      "datatype": "char",
+      "unit": "",
+      "description": "Host Name"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "htm20",
+      "datatype": "int",
+      "unit": "",
+      "description": "Spatial Index"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "ima_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Imaging"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "micro_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Microlensing"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "obm_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Orbital Brightness Modulations"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_bmasse",
+      "datatype": "double",
+      "unit": "Mearth",
+      "description": "Planet Mass or Mass*sin(i) [Earth Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_bmasseerr1",
+      "datatype": "double",
+      "unit": "Mearth",
+      "description": "Planet Mass or Mass*sin(i) [Earth Mass] Upper Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_bmasseerr2",
+      "datatype": "double",
+      "unit": "Mearth",
+      "description": "Planet Mass or Mass*sin(i) [Earth Mass] Lower Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_bmasselim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Mass or Mass*sin(i) [Earth Mass] Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_bmassestr",
+      "datatype": "char",
+      "unit": "Mearth",
+      "description": "Planet Mass or Mass*sin(i) [Earth Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_bmassj",
+      "datatype": "double",
+      "unit": "Mjupiter",
+      "description": "Planet Mass or Mass*sin(i) [Jupiter Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_bmassjerr1",
+      "datatype": "double",
+      "unit": "Mjupiter",
+      "description": "Planet Mass or Mass*sin(i) [Jupiter Mass] Upper Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_bmassjerr2",
+      "datatype": "double",
+      "unit": "Mjupiter",
+      "description": "Planet Mass or Mass*sin(i) [Jupiter Mass] Lower Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_bmassjlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Mass or Mass*sin(i) [Jupiter Mass] Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_bmassjstr",
+      "datatype": "char",
+      "unit": "Mjupiter",
+      "description": "Planet Mass or Mass*sin(i) [Jupiter Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_bmassprov",
+      "datatype": "char",
+      "unit": "",
+      "description": "Planet Mass or Mass*sin(i) Provenance"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_cmasse",
+      "datatype": "double",
+      "unit": "Mearth",
+      "description": "Planet Mass*sin(i)/sin(i) [Earth Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_cmasseerr1",
+      "datatype": "double",
+      "unit": "Mearth",
+      "description": "Planet Mass*sin(i)/sin(i) [Earth Mass] Upper Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_cmasseerr2",
+      "datatype": "double",
+      "unit": "Mearth",
+      "description": "Planet Mass*sin(i)/sin(i) [Earth Mass] Lower Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_cmasselim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Mass*sin(i)/sin(i) [Earth Mass] Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_cmassestr",
+      "datatype": "char",
+      "unit": "Mearth",
+      "description": "Planet Mass*sin(i)/sin(i) [Earth Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_cmassj",
+      "datatype": "double",
+      "unit": "Mjupiter",
+      "description": "Planet Mass*sin(i)/sin(i) [Jupiter Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_cmassjerr1",
+      "datatype": "double",
+      "unit": "Mjupiter",
+      "description": "Planet Mass*sin(i)/sin(i) [Jupiter Mass] Upper Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_cmassjerr2",
+      "datatype": "double",
+      "unit": "Mjupiter",
+      "description": "Planet Mass*sin(i)/sin(i) [Jupiter Mass] Lower Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_cmassjlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Mass*sin(i)/sin(i) [Jupiter Mass] Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_cmassjstr",
+      "datatype": "char",
+      "unit": "Mjupiter",
+      "description": "Planet Mass*sin(i)/sin(i) [Jupiter Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_controv_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Controversial Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_dens",
+      "datatype": "double",
+      "unit": "g/cm**3",
+      "description": "Planet Density [g/cm**3]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_denserr1",
+      "datatype": "double",
+      "unit": "g/cm**3",
+      "description": "Planet Density Upper Unc. [g/cm**3]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_denserr2",
+      "datatype": "double",
+      "unit": "g/cm**3",
+      "description": "Planet Density Lower Unc. [g/cm**3]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_denslim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Density Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_densstr",
+      "datatype": "char",
+      "unit": "g/cm**3",
+      "description": "Planet Density [g/cm**3]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_eqt",
+      "datatype": "double",
+      "unit": "K",
+      "description": "Equilibrium Temperature [K]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_eqterr1",
+      "datatype": "double",
+      "unit": "K",
+      "description": "Equilibrium Temperature Upper Unc. [K]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_eqterr2",
+      "datatype": "double",
+      "unit": "K",
+      "description": "Equilibrium Temperature Lower Unc. [K]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_eqtlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Equilibrium Temperature Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_eqtstr",
+      "datatype": "char",
+      "unit": "K",
+      "description": "Equilibrium Temperature [K]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_imppar",
+      "datatype": "double",
+      "unit": "",
+      "description": "Impact Parameter"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_impparerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Impact Parameter Upper Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_impparerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Impact Parameter Lower Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_impparlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Impact Parameter Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_impparstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "Impact Parameter"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_insol",
+      "datatype": "double",
+      "unit": "Searth",
+      "description": "Insolation Flux [Earth Flux]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_insolerr1",
+      "datatype": "double",
+      "unit": "Searth",
+      "description": "Insolation Flux Upper Unc. [Earth Flux]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_insolerr2",
+      "datatype": "double",
+      "unit": "Searth",
+      "description": "Insolation Flux Lower Unc. [Earth Flux]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_insollim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Insolation Flux Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_insolstr",
+      "datatype": "char",
+      "unit": "Searth",
+      "description": "Insolation Flux [Earth Flux]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_letter",
+      "datatype": "char",
+      "unit": "",
+      "description": "Planet Letter"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_masse",
+      "datatype": "double",
+      "unit": "Mearth",
+      "description": "Planet Mass [Earth Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_masseerr1",
+      "datatype": "double",
+      "unit": "Mearth",
+      "description": "Planet Mass [Earth Mass] Upper Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_masseerr2",
+      "datatype": "double",
+      "unit": "Mearth",
+      "description": "Planet Mass [Earth Mass] Lower Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_masselim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Mass [Earth Mass] Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_massestr",
+      "datatype": "char",
+      "unit": "Mearth",
+      "description": "Planet Mass [Earth Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_massj",
+      "datatype": "double",
+      "unit": "Mjupiter",
+      "description": "Planet Mass [Jupiter Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_massjerr1",
+      "datatype": "double",
+      "unit": "Mjupiter",
+      "description": "Planet Mass [Jupiter Mass] Upper Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_massjerr2",
+      "datatype": "double",
+      "unit": "Mjupiter",
+      "description": "Planet Mass [Jupiter Mass] Lower Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_massjlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Mass [Jupiter Mass] Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_massjstr",
+      "datatype": "char",
+      "unit": "Mjupiter",
+      "description": "Planet Mass [Jupiter Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_msinie",
+      "datatype": "double",
+      "unit": "Mearth",
+      "description": "Planet Mass*sin(i) [Earth Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_msinieerr1",
+      "datatype": "double",
+      "unit": "Mearth",
+      "description": "Planet Mass*sin(i) [Earth Mass] Upper Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_msinieerr2",
+      "datatype": "double",
+      "unit": "Mearth",
+      "description": "Planet Mass*sin(i) [Earth Mass] Lower Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_msinielim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Mass*sin(i) [Earth Mass] Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_msiniestr",
+      "datatype": "char",
+      "unit": "Mearth",
+      "description": "Planet Mass*sin(i) [Earth Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_msinij",
+      "datatype": "double",
+      "unit": "Mjupiter",
+      "description": "Planet Mass*sin(i) [Jupiter Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_msinijerr1",
+      "datatype": "double",
+      "unit": "Mjupiter",
+      "description": "Planet Mass*sin(i) [Jupiter Mass] Upper Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_msinijerr2",
+      "datatype": "double",
+      "unit": "Mjupiter",
+      "description": "Planet Mass*sin(i) [Jupiter Mass] Lower Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_msinijlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Mass*sin(i) [Jupiter Mass] Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_msinijstr",
+      "datatype": "char",
+      "unit": "Mjupiter",
+      "description": "Planet Mass*sin(i) [Jupiter Mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_name",
+      "datatype": "char",
+      "unit": "",
+      "description": "Planet Name"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_ndispec",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Direct Imaging Spectra"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_nespec",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Eclipse Spectra"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_nnotes",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Notes"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_ntranspec",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Transmission Spectra"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_occdep",
+      "datatype": "double",
+      "unit": "%",
+      "description": "Occultation Depth [%]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_occdeperr1",
+      "datatype": "double",
+      "unit": "%",
+      "description": "Occultation Depth Upper Unc. [%]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_occdeperr2",
+      "datatype": "double",
+      "unit": "%",
+      "description": "Occultation Depth Lower Unc. [%]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_occdeplim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Occultation Depth Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_occdepstr",
+      "datatype": "char",
+      "unit": "%",
+      "description": "Occultation Depth [%]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbeccen",
+      "datatype": "double",
+      "unit": "",
+      "description": "Eccentricity"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbeccenerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Eccentricity Upper Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbeccenerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Eccentricity Lower Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbeccenlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Eccentricity Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbeccenstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "Eccentricity"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbincl",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Inclination [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbinclerr1",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Inclination Upper Unc. [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbinclerr2",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Inclination Lower Unc. [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbincllim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Inclination Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbinclstr",
+      "datatype": "char",
+      "unit": "deg",
+      "description": "Inclination [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orblper",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Argument of Periastron [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orblpererr1",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Argument of Periastron Upper Unc. [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orblpererr2",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Argument of Periastron Lower Unc. [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orblperlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Argument of Periastron Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orblperstr",
+      "datatype": "char",
+      "unit": "deg",
+      "description": "Argument of Periastron [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbper",
+      "datatype": "double",
+      "unit": "day",
+      "description": "Orbital Period [day]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbpererr1",
+      "datatype": "double",
+      "unit": "day",
+      "description": "Orbital Period Upper Unc. [day]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbpererr2",
+      "datatype": "double",
+      "unit": "day",
+      "description": "Orbital Period Lower Unc. [day]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbperlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Orbital Period Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbperstr",
+      "datatype": "char",
+      "unit": "day",
+      "description": "Orbital Period [day]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbsmax",
+      "datatype": "double",
+      "unit": "au",
+      "description": "Orbit Semi-Major Axis [au]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbsmaxerr1",
+      "datatype": "double",
+      "unit": "au",
+      "description": "Orbit Semi-Major Axis Upper Unc. [au]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbsmaxerr2",
+      "datatype": "double",
+      "unit": "au",
+      "description": "Orbit Semi-Major Axis Lower Unc. [au]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbsmaxlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Orbit Semi-Major Axis Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbsmaxstr",
+      "datatype": "char",
+      "unit": "au",
+      "description": "Orbit Semi-Major Axis [au]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbtper",
+      "datatype": "double",
+      "unit": "day",
+      "description": "Epoch of Periastron [day]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbtpererr1",
+      "datatype": "double",
+      "unit": "day",
+      "description": "Epoch of Periastron Upper Unc. [day]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbtpererr2",
+      "datatype": "double",
+      "unit": "day",
+      "description": "Epoch of Periastron Lower Unc. [day]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbtperlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Epoch of Periastron Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_orbtperstr",
+      "datatype": "char",
+      "unit": "day",
+      "description": "Epoch of Periastron [day]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_projobliq",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Projected Obliquity [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_projobliqerr1",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Projected Obliquity Upper Unc. [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_projobliqerr2",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Projected Obliquity Lower Unc. [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_projobliqlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Projected Obliquity Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_projobliqstr",
+      "datatype": "char",
+      "unit": "deg",
+      "description": "Projected Obliquity [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_pubdate",
+      "datatype": "char",
+      "unit": "",
+      "description": "Planetary Parameter Reference Publication Date"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_rade",
+      "datatype": "double",
+      "unit": "Rearth",
+      "description": "Planet Radius [Earth Radius]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_radeerr1",
+      "datatype": "double",
+      "unit": "Rearth",
+      "description": "Planet Radius Upper Unc. [Earth Radius]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_radeerr2",
+      "datatype": "double",
+      "unit": "Rearth",
+      "description": "Planet Radius Lower Unc. [Earth Radius]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_radelim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Radius Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_radestr",
+      "datatype": "char",
+      "unit": "Rearth",
+      "description": "Planet Radius [Earth Radius]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_radj",
+      "datatype": "double",
+      "unit": "Rjupiter",
+      "description": "Planet Radius [Jupiter Radius]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_radjerr1",
+      "datatype": "double",
+      "unit": "Rjupiter",
+      "description": "Planet Radius Upper Unc. [Jupiter Radius]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_radjerr2",
+      "datatype": "double",
+      "unit": "Rjupiter",
+      "description": "Planet Radius Lower Unc. [Jupiter Radius]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_radjlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Radius Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_radjstr",
+      "datatype": "char",
+      "unit": "Rjupiter",
+      "description": "Planet Radius [Jupiter Radius]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_ratdor",
+      "datatype": "double",
+      "unit": "",
+      "description": "Ratio of Semi-Major Axis to Stellar Radius"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_ratdorerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Ratio of Semi-Major Axis to Stellar Radius Upper Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_ratdorerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Ratio of Semi-Major Axis to Stellar Radius Lower Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_ratdorlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Ratio of Semi-Major Axis to Stellar Radius Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_ratdorstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "Ratio of Semi-Major Axis to Stellar Radius"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_ratror",
+      "datatype": "double",
+      "unit": "",
+      "description": "Ratio of Planet to Stellar Radius"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_ratrorerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Ratio of Planet to Stellar Radius Upper Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_ratrorerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Ratio of Planet to Stellar Radius Lower Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_ratrorlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Ratio of Planet to Stellar Radius Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_ratrorstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "Ratio of Planet to Stellar Radius"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_refname",
+      "datatype": "char",
+      "unit": "",
+      "description": "Planetary Parameter Reference"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_rvamp",
+      "datatype": "double",
+      "unit": "m/s",
+      "description": "Radial Velocity Amplitude [m/s]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_rvamperr1",
+      "datatype": "double",
+      "unit": "m/s",
+      "description": "Radial Velocity Amplitude Upper Unc. [m/s]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_rvamperr2",
+      "datatype": "double",
+      "unit": "m/s",
+      "description": "Radial Velocity Amplitude Lower Unc. [m/s]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_rvamplim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Radial Velocity Amplitude Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_rvampstr",
+      "datatype": "char",
+      "unit": "m/s",
+      "description": "Radial Velocity Amplitude [m/s]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_trandep",
+      "datatype": "double",
+      "unit": "%",
+      "description": "Transit Depth [%]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_trandeperr1",
+      "datatype": "double",
+      "unit": "%",
+      "description": "Transit Depth Upper Unc. [%]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_trandeperr2",
+      "datatype": "double",
+      "unit": "%",
+      "description": "Transit Depth Lower Unc. [%]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_trandeplim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Transit Depth Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_trandepstr",
+      "datatype": "char",
+      "unit": "%",
+      "description": "Transit Depth [%]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_trandur",
+      "datatype": "double",
+      "unit": "hour",
+      "description": "Transit Duration [hour]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_trandurerr1",
+      "datatype": "double",
+      "unit": "hour",
+      "description": "Transit Duration Upper Unc. [hour]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_trandurerr2",
+      "datatype": "double",
+      "unit": "hour",
+      "description": "Transit Duration Lower Unc. [hour]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_trandurlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Transit Duration Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_trandurstr",
+      "datatype": "char",
+      "unit": "hour",
+      "description": "Transit Duration [hour]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_tranmid",
+      "datatype": "double",
+      "unit": "day",
+      "description": "Transit Midpoint [day]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_tranmiderr1",
+      "datatype": "double",
+      "unit": "day",
+      "description": "Transit Midpoint Upper Unc. [day]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_tranmiderr2",
+      "datatype": "double",
+      "unit": "day",
+      "description": "Transit Midpoint Lower Unc. [day]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_tranmidlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Transit Midpoint Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_tranmidstr",
+      "datatype": "char",
+      "unit": "day",
+      "description": "Time of Conjunction (Transit Midpoint) [day]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_trueobliq",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "True Obliquity [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_trueobliqerr1",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "True Obliquity Upper Unc. [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_trueobliqerr2",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "True Obliquity Lower Unc. [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_trueobliqlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "True Obliquity Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_trueobliqstr",
+      "datatype": "char",
+      "unit": "deg",
+      "description": "True Obliquity [deg]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pl_tsystemref",
+      "datatype": "char",
+      "unit": "",
+      "description": "Time Reference Frame and Standard"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "ptv_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Pulsation Timing Variations"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "pul_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Pulsar Timing Variations"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "ra",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "RA [decimal]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "rastr",
+      "datatype": "char",
+      "unit": "hhmmss",
+      "description": "RA [sexagesimal]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "releasedate",
+      "datatype": "char",
+      "unit": "",
+      "description": "Release Date"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "rowupdate",
+      "datatype": "char",
+      "unit": "",
+      "description": "Date of Last Update"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "rv_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Radial Velocity Variations"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "soltype",
+      "datatype": "char",
+      "unit": "",
+      "description": "Solution Type"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_age",
+      "datatype": "double",
+      "unit": "Gyr",
+      "description": "Stellar Age [Gyr]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_ageerr1",
+      "datatype": "double",
+      "unit": "Gyr",
+      "description": "Stellar Age Upper Unc. [Gyr]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_ageerr2",
+      "datatype": "double",
+      "unit": "Gyr",
+      "description": "Stellar Age Lower Unc. [Gyr]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_agelim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Age Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_agestr",
+      "datatype": "char",
+      "unit": "Gyr",
+      "description": "Stellar Age [Gyr]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_dens",
+      "datatype": "double",
+      "unit": "g/cm**3",
+      "description": "Stellar Density [g/cm**3]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_denserr1",
+      "datatype": "double",
+      "unit": "g/cm**3",
+      "description": "Stellar Density Upper Unc. [g/cm**3]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_denserr2",
+      "datatype": "double",
+      "unit": "g/cm**3",
+      "description": "Stellar Density Lower Unc. [g/cm**3]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_denslim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Density Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_densstr",
+      "datatype": "char",
+      "unit": "g/cm**3",
+      "description": "Stellar Density [g/cm**3]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_logg",
+      "datatype": "double",
+      "unit": "log(cm/s**2)",
+      "description": "Stellar Surface Gravity [log(cm/s**2)]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_loggerr1",
+      "datatype": "double",
+      "unit": "log(cm/s**2)",
+      "description": "Stellar Surface Gravity Upper Unc. [log(cm/s**2)]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_loggerr2",
+      "datatype": "double",
+      "unit": "log(cm/s**2)",
+      "description": "Stellar Surface Gravity Lower Unc. [log(cm/s**2)]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_logglim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Surface Gravity Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_loggstr",
+      "datatype": "char",
+      "unit": "log(cm/s**2)",
+      "description": "Stellar Surface Gravity [log(cm/s**2)]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_lum",
+      "datatype": "double",
+      "unit": "log(Lsun)",
+      "description": "Stellar Luminosity [log(Solar)]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_lumerr1",
+      "datatype": "double",
+      "unit": "log(Lsun)",
+      "description": "Stellar Luminosity Upper Unc. [log(Solar)]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_lumerr2",
+      "datatype": "double",
+      "unit": "log(Lsun)",
+      "description": "Stellar Luminosity Lower Unc. [log(Solar)]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_lumlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Luminosity Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_lumstr",
+      "datatype": "char",
+      "unit": "log(Lsun)",
+      "description": "Stellar Luminosity [log(Solar)]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_mass",
+      "datatype": "double",
+      "unit": "Msun",
+      "description": "Stellar Mass [Solar mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_masserr1",
+      "datatype": "double",
+      "unit": "Msun",
+      "description": "Stellar Mass Upper Unc. [Solar mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_masserr2",
+      "datatype": "double",
+      "unit": "Msun",
+      "description": "Stellar Mass Lower Unc. [Solar mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_masslim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Mass Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_massstr",
+      "datatype": "char",
+      "unit": "Msun",
+      "description": "Stellar Mass [Solar mass]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_met",
+      "datatype": "double",
+      "unit": "dex",
+      "description": "Stellar Metallicity [dex]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_meterr1",
+      "datatype": "double",
+      "unit": "dex",
+      "description": "Stellar Metallicity Upper Unc. [dex]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_meterr2",
+      "datatype": "double",
+      "unit": "dex",
+      "description": "Stellar Metallicity Lower Unc. [dex]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_metlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Metallicity Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_metratio",
+      "datatype": "char",
+      "unit": "",
+      "description": "Stellar Metallicity Ratio"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_metstr",
+      "datatype": "char",
+      "unit": "dex",
+      "description": "Stellar Metallicity [dex]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_nphot",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Photometry Time Series"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_nrvc",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Radial Velocity Time Series"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_nspec",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Stellar Spectra Measurements"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_rad",
+      "datatype": "double",
+      "unit": "Rsun",
+      "description": "Stellar Radius [Solar Radius]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_raderr1",
+      "datatype": "double",
+      "unit": "Rsun",
+      "description": "Stellar Radius Upper Unc. [Solar Radius]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_raderr2",
+      "datatype": "double",
+      "unit": "Rsun",
+      "description": "Stellar Radius Lower Unc. [Solar Radius]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_radlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Radius Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_radstr",
+      "datatype": "char",
+      "unit": "Rsun",
+      "description": "Stellar Radius [Solar Radius]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_radv",
+      "datatype": "double",
+      "unit": "km/s",
+      "description": "Systemic Radial Velocity [km/s]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_radverr1",
+      "datatype": "double",
+      "unit": "km/s",
+      "description": "Systemic Radial Velocity Upper Unc. [km/s]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_radverr2",
+      "datatype": "double",
+      "unit": "km/s",
+      "description": "Systemic Radial Velocity Lower Unc. [km/s]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_radvlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Systemic Radial Velocity Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_radvstr",
+      "datatype": "char",
+      "unit": "km/s",
+      "description": "Systemic Radial Velocity [km/s]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_refname",
+      "datatype": "char",
+      "unit": "",
+      "description": "Stellar Parameter Reference"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_rotp",
+      "datatype": "double",
+      "unit": "day",
+      "description": "Stellar Rotational Period [day]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_rotperr1",
+      "datatype": "double",
+      "unit": "day",
+      "description": "Stellar Rotational Period [day] Upper Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_rotperr2",
+      "datatype": "double",
+      "unit": "day",
+      "description": "Stellar Rotational Period [day] Lower Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_rotplim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Rotational Period Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_rotpstr",
+      "datatype": "char",
+      "unit": "day",
+      "description": "Stellar Rotational Period [day]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_spectype",
+      "datatype": "char",
+      "unit": "",
+      "description": "Spectral Type"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_teff",
+      "datatype": "double",
+      "unit": "K",
+      "description": "Stellar Effective Temperature [K]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_tefferr1",
+      "datatype": "double",
+      "unit": "K",
+      "description": "Stellar Effective Temperature Upper Unc. [K]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_tefferr2",
+      "datatype": "double",
+      "unit": "K",
+      "description": "Stellar Effective Temperature Lower Unc. [K]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_tefflim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Effective Temperature Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_teffstr",
+      "datatype": "char",
+      "unit": "K",
+      "description": "Stellar Effective Temperature [K]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_vsin",
+      "datatype": "double",
+      "unit": "km/s",
+      "description": "Stellar Rotational Velocity [km/s]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_vsinerr1",
+      "datatype": "double",
+      "unit": "km/s",
+      "description": "Stellar Rotational Velocity [km/s] Upper Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_vsinerr2",
+      "datatype": "double",
+      "unit": "km/s",
+      "description": "Stellar Rotational Velocity [km/s] Lower Unc."
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_vsinlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Rotational Velocity Limit Flag"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "st_vsinstr",
+      "datatype": "char",
+      "unit": "km/s",
+      "description": "Stellar Rotational Velocity [km/s]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_bmag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "B (Johnson) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_bmagerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "B (Johnson) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_bmagerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "B (Johnson) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_bmagstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "B (Johnson) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_dist",
+      "datatype": "double",
+      "unit": "pc",
+      "description": "Distance [pc]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_disterr1",
+      "datatype": "double",
+      "unit": "pc",
+      "description": "Distance [pc] Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_disterr2",
+      "datatype": "double",
+      "unit": "pc",
+      "description": "Distance [pc] Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_diststr",
+      "datatype": "char",
+      "unit": "pc",
+      "description": "Distance [pc]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_gaiamag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "Gaia Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_gaiamagerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "Gaia Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_gaiamagerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "Gaia Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_gaiamagstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "Gaia Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_gmag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "g (Sloan) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_gmagerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "g (Sloan) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_gmagerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "g (Sloan) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_gmagstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "g (Sloan) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_hmag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "H (2MASS) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_hmagerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "H (2MASS) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_hmagerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "H (2MASS) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_hmagstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "H (2MASS) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_icmag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "I (Cousins) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_icmagerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "I (Cousins) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_icmagerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "I (Cousins) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_icmagstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "I (Cousins) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_imag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "i (Sloan) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_imagerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "i (Sloan) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_imagerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "i (Sloan) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_imagstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "i (Sloan) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_jmag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "J (2MASS) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_jmagerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "J (2MASS) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_jmagerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "J (2MASS) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_jmagstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "J (2MASS) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_kepmag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "Kepler Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_kepmagerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "Kepler Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_kepmagerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "Kepler Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_kepmagstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "Kepler Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_kmag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "Ks (2MASS) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_kmagerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "Ks (2MASS) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_kmagerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "Ks (2MASS) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_kmagstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "Ks (2MASS) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_mnum",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Moons"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_plx",
+      "datatype": "double",
+      "unit": "mas",
+      "description": "Parallax [mas]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_plxerr1",
+      "datatype": "double",
+      "unit": "mas",
+      "description": "Parallax [mas] Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_plxerr2",
+      "datatype": "double",
+      "unit": "mas",
+      "description": "Parallax [mas] Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_plxstr",
+      "datatype": "char",
+      "unit": "mas",
+      "description": "Parallax [mas]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_pm",
+      "datatype": "double",
+      "unit": "mas/yr",
+      "description": "Total Proper Motion [mas/yr]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_pmdec",
+      "datatype": "double",
+      "unit": "mas/yr",
+      "description": "Proper Motion (Dec) [mas/yr]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_pmdecerr1",
+      "datatype": "double",
+      "unit": "mas/yr",
+      "description": "Proper Motion (Dec) [mas/yr] Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_pmdecerr2",
+      "datatype": "double",
+      "unit": "mas/yr",
+      "description": "Proper Motion (Dec) [mas/yr] Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_pmdecstr",
+      "datatype": "char",
+      "unit": "mas/yr",
+      "description": "Proper Motion (Dec) [mas/yr]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_pmerr1",
+      "datatype": "double",
+      "unit": "mas/yr",
+      "description": "Total Proper Motion Upper Unc [mas/yr]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_pmerr2",
+      "datatype": "double",
+      "unit": "mas/yr",
+      "description": "Total Proper Motion Lower Unc [mas/yr]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_pmra",
+      "datatype": "double",
+      "unit": "mas/yr",
+      "description": "Proper Motion (RA) [mas/yr]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_pmraerr1",
+      "datatype": "double",
+      "unit": "mas/yr",
+      "description": "Proper Motion (RA) [mas/yr] Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_pmraerr2",
+      "datatype": "double",
+      "unit": "mas/yr",
+      "description": "Proper Motion (RA) [mas/yr] Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_pmrastr",
+      "datatype": "char",
+      "unit": "mas/yr",
+      "description": "Proper Motion (RA) [mas/yr]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_pmstr",
+      "datatype": "char",
+      "unit": "mas/yr",
+      "description": "Total Proper Motion [mas/yr]"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_pnum",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Planets"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_refname",
+      "datatype": "char",
+      "unit": "",
+      "description": "System Parameter Reference"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_rmag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "r (Sloan) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_rmagerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "r (Sloan) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_rmagerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "r (Sloan) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_rmagstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "r (Sloan) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_snum",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Stars"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_tmag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "TESS Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_tmagerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "TESS Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_tmagerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "TESS Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_tmagstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "TESS Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_umag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "u (Sloan) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_umagerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "u (Sloan) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_umagerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "u (Sloan) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_umagstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "u (Sloan) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_vmag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "V (Johnson) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_vmagerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "V (Johnson) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_vmagerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "V (Johnson) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_vmagstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "V (Johnson) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w1mag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "W1 (WISE) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w1magerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "W1 (WISE) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w1magerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "W1 (WISE) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w1magstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "W1 (WISE) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w2mag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "W2 (WISE) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w2magerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "W2 (WISE) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w2magerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "W2 (WISE) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w2magstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "W2 (WISE) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w3mag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "W3 (WISE) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w3magerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "W3 (WISE) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w3magerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "W3 (WISE) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w3magstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "W3 (WISE) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w4mag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "W4 (WISE) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w4magerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "W4 (WISE) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w4magerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "W4 (WISE) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_w4magstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "W4 (WISE) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_zmag",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "z (Sloan) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_zmagerr1",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "z (Sloan) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_zmagerr2",
+      "datatype": "double",
+      "unit": "mag",
+      "description": "z (Sloan) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "sy_zmagstr",
+      "datatype": "char",
+      "unit": "mag",
+      "description": "z (Sloan) Magnitude"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "tic_id",
+      "datatype": "char",
+      "unit": "",
+      "description": "TIC ID"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "tran_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Transits"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "ttv_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Data show Transit Timing Variations"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "x",
+      "datatype": "double",
+      "unit": "",
+      "description": "Spatial Coordinate X"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "y",
+      "datatype": "double",
+      "unit": "",
+      "description": "Spatial Coordinate Y"
+    },
+    {
+      "table_name": "ps",
+      "column_name": "z",
+      "datatype": "double",
+      "unit": "",
+      "description": "Spatial Coordinate Z"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "ast_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Astrometric Variations"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "cb_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Circumbinary Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "dec",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Dec [decimal]"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "decstr",
+      "datatype": "char",
+      "unit": "sexagesimal",
+      "description": "Dec"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "disc_facility",
+      "datatype": "char",
+      "unit": "",
+      "description": "Discovery Facility"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "disc_instrument",
+      "datatype": "char",
+      "unit": "",
+      "description": "Discovery Instrument"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "disc_locale",
+      "datatype": "char",
+      "unit": "",
+      "description": "Discovery Locale"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "disc_pubdate",
+      "datatype": "char",
+      "unit": "",
+      "description": "Discovery Publication Date"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "disc_refname",
+      "datatype": "char",
+      "unit": "",
+      "description": "Discovery Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "disc_telescope",
+      "datatype": "char",
+      "unit": "",
+      "description": "Discovery Telescope"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "disc_year",
+      "datatype": "int",
+      "unit": "",
+      "description": "Discovery Year"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "discoverymethod",
+      "datatype": "char",
+      "unit": "",
+      "description": "Discovery Method"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "dkin_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Disk Kinematics"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "elat",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Ecliptic Latitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "elon",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Ecliptic Longitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "etv_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Eclipse Timing Variations"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "gaia_dr2_id",
+      "datatype": "char",
+      "unit": "",
+      "description": "Gaia DR2_ID"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "gaia_dr3_id",
+      "datatype": "char",
+      "unit": "",
+      "description": "Gaia DR3_ID"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "glat",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Galactic Latitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "glon",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Galactic Longitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "hd_name",
+      "datatype": "char",
+      "unit": "",
+      "description": "HD ID"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "hip_name",
+      "datatype": "char",
+      "unit": "",
+      "description": "HIP ID"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "hostname",
+      "datatype": "char",
+      "unit": "",
+      "description": "Host Name"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "htm20",
+      "datatype": "int",
+      "unit": "",
+      "description": "Spatial Index"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "ima_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Imaging"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "micro_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Microlensing"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "obm_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Orbital Brightness Modulations"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_angsep",
+      "datatype": "double",
+      "unit": "mas",
+      "description": "Angular Separation"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_angsep_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Angular Separation Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_angseperr1",
+      "datatype": "double",
+      "unit": "mas",
+      "description": "Angular Separation Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_angseperr2",
+      "datatype": "double",
+      "unit": "mas",
+      "description": "Angular Separation Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_angseplim",
+      "datatype": "double",
+      "unit": "",
+      "description": "Angular Separation Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_angsepstr",
+      "datatype": "char",
+      "unit": "mas",
+      "description": "Angular Separation"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_bmasse",
+      "datatype": "double",
+      "unit": "Earth Mass",
+      "description": "Planet Mass or Mass*sin(i)"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_bmasse_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Planet Mass or Mass*sin(i) [Earth Mass] Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_bmasseerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Planet Mass or Mass*sin(i) [Earth Mass] Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_bmasseerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Planet Mass or Mass*sin(i) [Earth Mass] Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_bmasselim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Mass or Mass*sin(i) [Earth Mass] Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_bmassestr",
+      "datatype": "char",
+      "unit": "Earth Mass",
+      "description": "Planet Mass or Mass*sin(i)"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_bmassj",
+      "datatype": "double",
+      "unit": "Jupiter Mass",
+      "description": "Planet Mass or Mass*sin(i)"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_bmassj_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Planet Mass or Mass*sin(i) [Jupiter Mass] Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_bmassjerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Planet Mass or Mass*sin(i) [Jupiter Mass] Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_bmassjerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Planet Mass or Mass*sin(i) [Jupiter Mass] Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_bmassjlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Mass or Mass*sin(i) [Jupiter Mass] Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_bmassjstr",
+      "datatype": "char",
+      "unit": "Jupiter Mass",
+      "description": "Planet Mass or Mass*sin(i)"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_bmassprov",
+      "datatype": "char",
+      "unit": "",
+      "description": "Planet Mass or Mass*sin(i) Provenance"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_controv_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Controversial Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_dens",
+      "datatype": "double",
+      "unit": "g/cm**3",
+      "description": "Planet Density"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_dens_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Planet Density Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_denserr1",
+      "datatype": "double",
+      "unit": "g/cm**3",
+      "description": "Planet Density Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_denserr2",
+      "datatype": "double",
+      "unit": "g/cm**3",
+      "description": "Planet Density Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_denslim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Density Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_densstr",
+      "datatype": "char",
+      "unit": "g/cm**3",
+      "description": "Planet Density"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_eqt",
+      "datatype": "double",
+      "unit": "K",
+      "description": "Equilibrium Temperature"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_eqt_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Equilibrium Temperature Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_eqterr1",
+      "datatype": "double",
+      "unit": "K",
+      "description": "Equilibrium Temperature Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_eqterr2",
+      "datatype": "double",
+      "unit": "K",
+      "description": "Equilibrium Temperature Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_eqtlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Equilibrium Temperature Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_eqtstr",
+      "datatype": "char",
+      "unit": "K",
+      "description": "Equilibrium Temperature"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_esm",
+      "datatype": "double",
+      "unit": "",
+      "description": "Emission Spectroscopy Metric"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_esm_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Emission Spectroscopy Metric"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_esm_solnid",
+      "datatype": "char",
+      "unit": "",
+      "description": "Emission Spectroscopy Metric"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_esmerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Emission Spectroscopy Metric"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_esmerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Emission Spectroscopy Metric"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_esmlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Emission Spectroscopy Metric Limit"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_esmstr",
+      "datatype": "int",
+      "unit": "",
+      "description": "Emission Spectroscopy Metric Symmetric Error"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_imppar",
+      "datatype": "double",
+      "unit": "",
+      "description": "Impact Parameter"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_imppar_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Impact Parameter Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_impparerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Impact Parameter Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_impparerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Impact Parameter Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_impparlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Impact Parameter Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_impparstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "Impact Parameter"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_insol",
+      "datatype": "double",
+      "unit": "Earth Flux",
+      "description": "Insolation Flux"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_insol_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Insolation Flux Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_insolerr1",
+      "datatype": "double",
+      "unit": "Earth Flux",
+      "description": "Insolation Flux Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_insolerr2",
+      "datatype": "double",
+      "unit": "Earth Flux",
+      "description": "Insolation Flux Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_insollim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Insolation Flux Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_insolstr",
+      "datatype": "char",
+      "unit": "Earth Flux",
+      "description": "Insolation Flux"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_letter",
+      "datatype": "char",
+      "unit": "",
+      "description": "Planet Letter"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_name",
+      "datatype": "char",
+      "unit": "",
+      "description": "Planet Name"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_ndispec",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Direct Imaging Spectra"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_nespec",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Eclipse Spectra"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_nnotes",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Notes"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_nobs_jwst_di",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of JWST Observations - Direct Imaging"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_nobs_jwst_e",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of JWST Observations - Exclipse"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_nobs_jwst_pc",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of JWST Observations - Phase Curve"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_nobs_jwst_tran",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of JWST Observations - Transit"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_ntranspec",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Transmission Spectra"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_occdep",
+      "datatype": "double",
+      "unit": "%",
+      "description": "Occultation Depth"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_occdep_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Occultation Depth Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_occdeperr1",
+      "datatype": "double",
+      "unit": "%",
+      "description": "Occultation Depth Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_occdeperr2",
+      "datatype": "double",
+      "unit": "%",
+      "description": "Occultation Depth Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_occdeplim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Occultation Depth Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_occdepstr",
+      "datatype": "char",
+      "unit": "%",
+      "description": "Occultation Depth"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbeccen",
+      "datatype": "double",
+      "unit": "",
+      "description": "Eccentricity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbeccen_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Eccentricity Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbeccenerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Eccentricity Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbeccenerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Eccentricity Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbeccenlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Eccentricity Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbeccenstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "Eccentricity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbincl",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Inclination"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbincl_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Inclination Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbinclerr1",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Inclination Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbinclerr2",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Inclination Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbincllim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Inclination Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbinclstr",
+      "datatype": "char",
+      "unit": "deg",
+      "description": "Inclination"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orblper",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Argument of Periastron"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orblper_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Argument of Periastron Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orblpererr1",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Argument of Periastron Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orblpererr2",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Argument of Periastron Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orblperlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Argument of Periastron Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orblperstr",
+      "datatype": "char",
+      "unit": "deg",
+      "description": "Argument of Periastron"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbper",
+      "datatype": "double",
+      "unit": "days",
+      "description": "Orbital Period"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbper_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Orbital Period Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbpererr1",
+      "datatype": "double",
+      "unit": "days",
+      "description": "Orbital Period Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbpererr2",
+      "datatype": "double",
+      "unit": "days",
+      "description": "Orbital Period Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbperlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Orbital Period Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbperstr",
+      "datatype": "char",
+      "unit": "days",
+      "description": "Orbital Period"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbsmax",
+      "datatype": "double",
+      "unit": "",
+      "description": "Orbit Semi-Major Axis [au])"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbsmax_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Orbit Semi-Major Axis Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbsmaxerr1",
+      "datatype": "double",
+      "unit": "au",
+      "description": "Orbit Semi-Major Axis Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbsmaxerr2",
+      "datatype": "double",
+      "unit": "au",
+      "description": "Orbit Semi-Major Axis Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbsmaxlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Orbit Semi-Major Axis Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbsmaxstr",
+      "datatype": "char",
+      "unit": "au",
+      "description": "Orbit Semi-Major Axis"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbtper",
+      "datatype": "double",
+      "unit": "days",
+      "description": "Epoch of Periastron"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbtper_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Epoch of Periastron Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbtper_systemref",
+      "datatype": "char",
+      "unit": "",
+      "description": "Time Solnid Frame and Standard"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbtpererr1",
+      "datatype": "double",
+      "unit": "days",
+      "description": "Epoch of Periastron Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbtpererr2",
+      "datatype": "double",
+      "unit": "days",
+      "description": "Epoch of Periastron Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbtperlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Epoch of Periastron Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_orbtperstr",
+      "datatype": "char",
+      "unit": "days",
+      "description": "Epoch of Periastron"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_projobliq",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Projected Obliquity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_projobliq_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Projected Obliquity Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_projobliqerr1",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Projected Obliquity Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_projobliqerr2",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "Projected Obliquity Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_projobliqlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Projected Obliquity Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_projobliqstr",
+      "datatype": "char",
+      "unit": "deg",
+      "description": "Projected Obliquity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_rade",
+      "datatype": "double",
+      "unit": "Earth Radius",
+      "description": "Planet Radius"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_rade_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Planet Radius Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_radeerr1",
+      "datatype": "double",
+      "unit": "Earth Radius",
+      "description": "Planet Radius Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_radeerr2",
+      "datatype": "double",
+      "unit": "Earth Radius",
+      "description": "Planet Radius Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_radelim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Radius Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_radestr",
+      "datatype": "char",
+      "unit": "Earth Radius",
+      "description": "Planet Radius"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_radj",
+      "datatype": "double",
+      "unit": "Jupiter Radius",
+      "description": "Planet Radius"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_radj_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Planet Radius Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_radjerr1",
+      "datatype": "double",
+      "unit": "Jupiter Radius",
+      "description": "Planet Radius Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_radjerr2",
+      "datatype": "double",
+      "unit": "Jupiter Radius",
+      "description": "Planet Radius Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_radjlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Planet Radius Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_radjstr",
+      "datatype": "char",
+      "unit": "Jupiter Radius",
+      "description": "Planet Radius"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_ratdor",
+      "datatype": "double",
+      "unit": "",
+      "description": "Ratio of Semi-Major Axis to Stellar Radius"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_ratdor_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Ratio of Semi-Major Axis to Stellar Radius Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_ratdorerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Ratio of Semi-Major Axis to Stellar Radius Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_ratdorerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Ratio of Semi-Major Axis to Stellar Radius Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_ratdorlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Ratio of Semi-Major Axis to Stellar Radius Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_ratdorstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "Ratio of Semi-Major Axis to Stellar Radius"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_ratror",
+      "datatype": "double",
+      "unit": "",
+      "description": "Ratio of Planet to Stellar Radius"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_ratror_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Ratio of Planet to Stellar Radius Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_ratrorerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Ratio of Planet to Stellar Radius Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_ratrorerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Ratio of Planet to Stellar Radius Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_ratrorlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Ratio of Planet to Stellar Radius Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_ratrorstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "Ratio of Planet to Stellar Radius"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_rvamp",
+      "datatype": "double",
+      "unit": "m/s",
+      "description": "Radial Velocity Amplitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_rvamp_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Radial Velocity Amplitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_rvamperr1",
+      "datatype": "double",
+      "unit": "m/s",
+      "description": "Radial Velocity Amplitude Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_rvamperr2",
+      "datatype": "double",
+      "unit": "m/s",
+      "description": "Radial Velocity Amplitude Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_rvamplim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Radial Velocity Amplitude Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_rvampstr",
+      "datatype": "char",
+      "unit": "m/s",
+      "description": "Radial Velocity Amplitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trandep",
+      "datatype": "double",
+      "unit": "%",
+      "description": "Transit Depth"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trandep_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Transit Depth Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trandeperr1",
+      "datatype": "double",
+      "unit": "%",
+      "description": "Transit Depth Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trandeperr2",
+      "datatype": "double",
+      "unit": "%",
+      "description": "Transit Depth Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trandeplim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Transit Depth Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trandepstr",
+      "datatype": "char",
+      "unit": "%",
+      "description": "Transit Depth"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trandur",
+      "datatype": "double",
+      "unit": "hours",
+      "description": "Transit Duration"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trandur_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Transit Duration Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trandurerr1",
+      "datatype": "double",
+      "unit": "hours",
+      "description": "Transit Duration Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trandurerr2",
+      "datatype": "double",
+      "unit": "hours",
+      "description": "Transit Duration Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trandurlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Transit Duration Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trandurstr",
+      "datatype": "char",
+      "unit": "hours",
+      "description": "Transit Duration"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_tranmid",
+      "datatype": "double",
+      "unit": "days",
+      "description": "Transit Midpoint"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_tranmid_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Time of Conjunction (Transit Midpoint) Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_tranmid_systemref",
+      "datatype": "char",
+      "unit": "",
+      "description": "Time Reference Frame and Standard"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_tranmiderr1",
+      "datatype": "double",
+      "unit": "days",
+      "description": "Transit Midpoint Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_tranmiderr2",
+      "datatype": "double",
+      "unit": "days",
+      "description": "Transit Midpoint Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_tranmidlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Transit Midpoint Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_tranmidstr",
+      "datatype": "char",
+      "unit": "days",
+      "description": "Time of Conjunction (Transit Midpoint)"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trueobliq",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "True Obliquity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trueobliq_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "True Obliquity Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trueobliqerr1",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "True Obliquity Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trueobliqerr2",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "True Obliquity Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trueobliqlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "True Obliquity Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_trueobliqstr",
+      "datatype": "char",
+      "unit": "deg",
+      "description": "True Obliquity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_tsm",
+      "datatype": "double",
+      "unit": "",
+      "description": "Transit Spectroscopy Metric"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_tsm_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Transit Spectroscopy Metric"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_tsm_solnid",
+      "datatype": "char",
+      "unit": "",
+      "description": "Transit Spectroscopy Metric"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_tsmerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Transit Spectroscopy Metric"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_tsmerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Transit Spectroscopy Metric"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_tsmlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Transit Spectroscopy Metric Limit"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pl_tsmstr",
+      "datatype": "int",
+      "unit": "",
+      "description": "Transit Spectroscopy Metric Symmetric Error"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "ptv_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Pulsation Timing Variations"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "pul_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Pulsar Timing Variations"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "ra",
+      "datatype": "double",
+      "unit": "deg",
+      "description": "RA [decimal]"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "ra_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "RA Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "rastr",
+      "datatype": "char",
+      "unit": "sexagesimal",
+      "description": "RA"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "rv_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Radial Velocity Variations"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_age",
+      "datatype": "double",
+      "unit": "Gyr",
+      "description": "Stellar Age"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_age_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Stellar Age Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_ageerr1",
+      "datatype": "double",
+      "unit": "Gyr",
+      "description": "Stellar Age Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_ageerr2",
+      "datatype": "double",
+      "unit": "Gyr",
+      "description": "Stellar Age Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_agelim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Age Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_agestr",
+      "datatype": "char",
+      "unit": "Gyr",
+      "description": "Stellar Age"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_dens",
+      "datatype": "double",
+      "unit": "g/cm**3",
+      "description": "Stellar Density"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_dens_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Stellar Density Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_denserr1",
+      "datatype": "double",
+      "unit": "g/cm**3",
+      "description": "Stellar Density Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_denserr2",
+      "datatype": "double",
+      "unit": "g/cm**3",
+      "description": "Stellar Density Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_denslim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Density Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_densstr",
+      "datatype": "char",
+      "unit": "g/cm**3",
+      "description": "Stellar Density"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_logg",
+      "datatype": "double",
+      "unit": "log10(cm/s**2)",
+      "description": "Stellar Surface Gravity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_logg_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Stellar Surface Gravity Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_loggerr1",
+      "datatype": "double",
+      "unit": "log10(cm/s**2)",
+      "description": "Stellar Surface Gravity Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_loggerr2",
+      "datatype": "double",
+      "unit": "log10(cm/s**2)",
+      "description": "Stellar Surface Gravity Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_logglim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Surface Gravity Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_loggstr",
+      "datatype": "char",
+      "unit": "log10(cm/s**2)",
+      "description": "Stellar Surface Gravity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_lum",
+      "datatype": "double",
+      "unit": "log(Solar)",
+      "description": "Stellar Luminosity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_lum_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Stellar Luminosity Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_lumerr1",
+      "datatype": "double",
+      "unit": "log(Solar)",
+      "description": "Stellar Luminosity Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_lumerr2",
+      "datatype": "double",
+      "unit": "log(Solar)",
+      "description": "Stellar Luminosity Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_lumlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Luminosity Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_lumstr",
+      "datatype": "char",
+      "unit": "log(Solar)",
+      "description": "Stellar Luminosity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_mass",
+      "datatype": "double",
+      "unit": "Solar mass",
+      "description": "Stellar Mass"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_mass_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Stellar Mass Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_masserr1",
+      "datatype": "double",
+      "unit": "Solar mass",
+      "description": "Stellar Mass Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_masserr2",
+      "datatype": "double",
+      "unit": "Solar mass",
+      "description": "Stellar Mass Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_masslim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Mass Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_massstr",
+      "datatype": "char",
+      "unit": "Solar mass",
+      "description": "Stellar Mass"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_met",
+      "datatype": "double",
+      "unit": "dex",
+      "description": "Stellar Metallicity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_met_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Stellar Metallicity Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_meterr1",
+      "datatype": "double",
+      "unit": "dex",
+      "description": "Stellar Metallicity Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_meterr2",
+      "datatype": "double",
+      "unit": "dex",
+      "description": "Stellar Metallicity Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_metlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Metallicity Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_metratio",
+      "datatype": "char",
+      "unit": "",
+      "description": "Stellar Metallicity Ratio"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_metstr",
+      "datatype": "char",
+      "unit": "dex",
+      "description": "Stellar Metallicity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_nphot",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Photometry Time Series"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_nrvc",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Radial Velocity Time Series"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_nspec",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Stellar Spectra Measurements"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_rad",
+      "datatype": "double",
+      "unit": "Solar Radius",
+      "description": "Stellar Radius"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_rad_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Stellar Radius Refence"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_raderr1",
+      "datatype": "double",
+      "unit": "Solar Radius",
+      "description": "Stellar Radius Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_raderr2",
+      "datatype": "double",
+      "unit": "Solar Radius",
+      "description": "Stellar Radius Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_radlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Radius Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_radstr",
+      "datatype": "char",
+      "unit": "Solar Radius",
+      "description": "Stellar Radius"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_radv",
+      "datatype": "double",
+      "unit": "km/s",
+      "description": "Systemic Radial Velocity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_radv_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Systemic Radial Velocity Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_radverr1",
+      "datatype": "double",
+      "unit": "km/s",
+      "description": "Systemic Radial Velocity Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_radverr2",
+      "datatype": "double",
+      "unit": "km/s",
+      "description": "Systemic Radial Velocity Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_radvlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Systemic Radial Velocity Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_radvstr",
+      "datatype": "char",
+      "unit": "km/s",
+      "description": "Systemic Radial Velocity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_rotp",
+      "datatype": "double",
+      "unit": "days",
+      "description": "Stellar Rotational Period"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_rotp_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Stellar Rotational Period Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_rotperr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Stellar Rotational Period [days] Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_rotperr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Stellar Rotational Period [days] Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_rotplim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Rotational Period Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_rotpstr",
+      "datatype": "char",
+      "unit": "days",
+      "description": "Stellar Rotational Period"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_spectype",
+      "datatype": "char",
+      "unit": "",
+      "description": "Spectral Type"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_spectype_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Spectral Type Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_teff",
+      "datatype": "double",
+      "unit": "K",
+      "description": "Stellar Effective Temperature"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_teff_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Stellar Effective Temperature Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_tefferr1",
+      "datatype": "double",
+      "unit": "K",
+      "description": "Stellar Effective Temperature Upper Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_tefferr2",
+      "datatype": "double",
+      "unit": "K",
+      "description": "Stellar Effective Temperature Lower Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_tefflim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Effective Temperature Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_teffstr",
+      "datatype": "char",
+      "unit": "K",
+      "description": "Stellar Effective Temperature"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_vsin",
+      "datatype": "double",
+      "unit": "km/s",
+      "description": "Stellar Rotational Velocity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_vsin_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Stellar Rotational Velocity Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_vsinerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Stellar Rotational Velocity [km/s] Upper Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_vsinerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Stellar Rotational Velocity [km/s] Lower Unc."
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_vsinlim",
+      "datatype": "int",
+      "unit": "",
+      "description": "Stellar Rotational Velocity Limit Flag"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "st_vsinstr",
+      "datatype": "char",
+      "unit": "km/s",
+      "description": "Stellar Rotational Velocity"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_bmag",
+      "datatype": "double",
+      "unit": "",
+      "description": "B (Johnson) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_bmag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "B (Johnson) Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_bmagerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "B (Johnson) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_bmagerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "B (Johnson) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_bmagstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "B (Johnson) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_dist",
+      "datatype": "double",
+      "unit": "pc",
+      "description": "Distance"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_dist_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Distance Refence"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_disterr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Distance [pc] Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_disterr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Distance [pc] Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_diststr",
+      "datatype": "char",
+      "unit": "pc",
+      "description": "Distance"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_gaiamag",
+      "datatype": "double",
+      "unit": "",
+      "description": "Gaia Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_gaiamag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Gaia Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_gaiamagerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Gaia Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_gaiamagerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Gaia Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_gaiamagstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "Gaia Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_gmag",
+      "datatype": "double",
+      "unit": "",
+      "description": "g (Sloan) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_gmag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "g (Sloan) Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_gmagerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "g (Sloan) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_gmagerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "g (Sloan) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_gmagstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "g (Sloan) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_hmag",
+      "datatype": "double",
+      "unit": "",
+      "description": "H (2MASS) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_hmag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "H (2MASS) Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_hmagerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "H (2MASS) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_hmagerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "H (2MASS) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_hmagstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "H (2MASS) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_icmag",
+      "datatype": "double",
+      "unit": "",
+      "description": "I (Cousins) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_icmag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "I (Cousins) Magnitude Solnid"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_icmagerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "I (Cousins) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_icmagerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "I (Cousins) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_icmagstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "I (Cousins) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_imag",
+      "datatype": "double",
+      "unit": "",
+      "description": "i (Sloan) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_imag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "i (Sloan) Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_imagerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "i (Sloan) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_imagerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "i (Sloan) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_imagstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "i (Sloan) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_jmag",
+      "datatype": "double",
+      "unit": "",
+      "description": "J (2MASS) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_jmag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "J (2MASS) Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_jmagerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "J (2MASS) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_jmagerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "J (2MASS) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_jmagstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "J (2MASS) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_kepmag",
+      "datatype": "double",
+      "unit": "",
+      "description": "Kepler Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_kepmag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Kepler Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_kepmagerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Kepler Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_kepmagerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Kepler Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_kepmagstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "Kepler Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_kmag",
+      "datatype": "double",
+      "unit": "",
+      "description": "Ks (2MASS) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_kmag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Ks (2MASS) Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_kmagerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Ks (2MASS) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_kmagerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Ks (2MASS) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_kmagstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "Ks (2MASS) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_mnum",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Moons"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_plx",
+      "datatype": "double",
+      "unit": "mas",
+      "description": "Parallax"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_plx_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Parallax Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_plxerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Parallax [mas] Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_plxerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Parallax [mas] Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_plxstr",
+      "datatype": "char",
+      "unit": "mas",
+      "description": "Parallax"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_pm",
+      "datatype": "double",
+      "unit": "mas/yr",
+      "description": "Total Proper Motion"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_pm_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "Total Proper Motion Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_pmdec",
+      "datatype": "double",
+      "unit": "mas/yr",
+      "description": "Proper Motion (Dec)"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_pmdecerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Proper Motion (Dec) [mas/yr] Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_pmdecerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Proper Motion (Dec) [mas/yr] Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_pmdecstr",
+      "datatype": "char",
+      "unit": "mas/yr",
+      "description": "Proper Motion (Dec)"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_pmerr1",
+      "datatype": "double",
+      "unit": "mas/yr",
+      "description": "Total Proper Motion Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_pmerr2",
+      "datatype": "double",
+      "unit": "mas/yr",
+      "description": "Total Proper Motion Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_pmra",
+      "datatype": "double",
+      "unit": "mas/yr",
+      "description": "Proper Motion (RA)"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_pmraerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "Proper Motion (RA) [mas/yr] Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_pmraerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "Proper Motion (RA) [mas/yr] Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_pmrastr",
+      "datatype": "char",
+      "unit": "mas/yr",
+      "description": "Proper Motion (RA)"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_pmstr",
+      "datatype": "char",
+      "unit": "mas/yr",
+      "description": "Total Proper Motion"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_pnum",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Planets"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_rmag",
+      "datatype": "double",
+      "unit": "",
+      "description": "r (Sloan) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_rmag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "r (Sloan) Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_rmagerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "r (Sloan) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_rmagerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "r (Sloan) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_rmagstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "r (Sloan) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_snum",
+      "datatype": "int",
+      "unit": "",
+      "description": "Number of Stars"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_tmag",
+      "datatype": "double",
+      "unit": "",
+      "description": "TESS Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_tmag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "TESS Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_tmagerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "TESS Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_tmagerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "TESS Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_tmagstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "TESS Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_umag",
+      "datatype": "double",
+      "unit": "",
+      "description": "u (Sloan) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_umag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "u (Sloan) Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_umagerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "u (Sloan) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_umagerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "u (Sloan) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_umagstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "u (Sloan) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_vmag",
+      "datatype": "double",
+      "unit": "",
+      "description": "V (Johnson) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_vmag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "V (Johnson) Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_vmagerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "V (Johnson) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_vmagerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "V (Johnson) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_vmagstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "V (Johnson) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w1mag",
+      "datatype": "double",
+      "unit": "",
+      "description": "W1 (WISE) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w1mag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "W1 (WISE) Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w1magerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "W1 (WISE) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w1magerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "W1 (WISE) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w1magstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "W1 (WISE) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w2mag",
+      "datatype": "double",
+      "unit": "",
+      "description": "W2 (WISE) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w2mag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "W2 (WISE) Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w2magerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "W2 (WISE) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w2magerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "W2 (WISE) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w2magstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "W2 (WISE) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w3mag",
+      "datatype": "double",
+      "unit": "",
+      "description": "W3 (WISE) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w3mag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "W3 (WISE) Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w3magerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "W3 (WISE) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w3magerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "W3 (WISE) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w3magstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "W3 (WISE) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w4mag",
+      "datatype": "double",
+      "unit": "",
+      "description": "W4 (WISE) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w4mag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "W4 (WISE) Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w4magerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "W4 (WISE) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w4magerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "W4 (WISE) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_w4magstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "W4 (WISE) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_zmag",
+      "datatype": "double",
+      "unit": "",
+      "description": "z (Sloan) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_zmag_reflink",
+      "datatype": "char",
+      "unit": "",
+      "description": "z (Sloan) Magnitude Reference"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_zmagerr1",
+      "datatype": "double",
+      "unit": "",
+      "description": "z (Sloan) Magnitude Upper Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_zmagerr2",
+      "datatype": "double",
+      "unit": "",
+      "description": "z (Sloan) Magnitude Lower Unc"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "sy_zmagstr",
+      "datatype": "char",
+      "unit": "",
+      "description": "z (Sloan) Magnitude"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "tic_id",
+      "datatype": "char",
+      "unit": "",
+      "description": "TIC ID"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "tran_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Detected by Transits"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "ttv_flag",
+      "datatype": "int",
+      "unit": "",
+      "description": "Data show Transit Timing Variations"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "x",
+      "datatype": "double",
+      "unit": "",
+      "description": "Spatial Coordinate X"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "y",
+      "datatype": "double",
+      "unit": "",
+      "description": "Spatial Coordinate Y"
+    },
+    {
+      "table_name": "pscomppars",
+      "column_name": "z",
+      "datatype": "double",
+      "unit": "",
+      "description": "Spatial Coordinate Z"
+    }
+  ],
+  "units": {
+    "table_name": null,
+    "column_name": null,
+    "datatype": null,
+    "unit": null,
+    "description": null
+  },
+  "error": null,
+  "failure_origin": null,
+  "provenance": {
+    "endpoint": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+    "query": "select table_name,column_name,datatype,unit,description from TAP_SCHEMA.columns where table_name in ('ps','pscomppars') order by table_name,column_name",
+    "started_at": "2026-10-12T18:35:29.594082+00:00",
+    "maxrec": 10000,
+    "http_status": 200,
+    "attempts": 1,
+    "sha256": "061ede1e17f6f8ea67076e5bd9bdbab6baadcb82ad3efe01e8119701b55704c4",
+    "finished_at": "2026-10-12T18:35:31.263830+00:00",
+    "bytes": 168924
+  }
+}

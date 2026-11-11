@@ -1,0 +1,487 @@
+[
+  {
+    "id": "exo-001",
+    "title": "Catalog planets",
+    "prompt": "How many planet rows are in pscomppars at retrieval time?",
+    "query": "select count(*) as n from pscomppars",
+    "columns": [
+      {
+        "name": "n",
+        "rtol": 0,
+        "atol": 0
+      }
+    ],
+    "family": "population",
+    "difficulty": "easy",
+    "tags": [
+      "population"
+    ],
+    "caveat": "Counts describe the retrieved catalog, not an immutable population.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-002",
+    "title": "Preferred solutions",
+    "prompt": "How many preferred planet solutions are in ps (default_flag=1)?",
+    "query": "select count(*) as n from ps where default_flag=1",
+    "columns": [
+      {
+        "name": "n",
+        "rtol": 0,
+        "atol": 0
+      }
+    ],
+    "family": "table-grain",
+    "difficulty": "easy",
+    "tags": [
+      "table-grain"
+    ],
+    "caveat": "Counts describe the retrieved catalog, not an immutable population.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-003",
+    "title": "All reference solutions",
+    "prompt": "How many rows, including multiple references per planet, are in ps?",
+    "query": "select count(*) as n from ps",
+    "columns": [
+      {
+        "name": "n",
+        "rtol": 0,
+        "atol": 0
+      }
+    ],
+    "family": "table-grain",
+    "difficulty": "easy",
+    "tags": [
+      "table-grain"
+    ],
+    "caveat": "Counts describe the retrieved catalog, not an immutable population.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-004",
+    "title": "Transit discoveries",
+    "prompt": "How many pscomppars planets have discoverymethod exactly 'Transit'?",
+    "query": "select count(*) as n from pscomppars where discoverymethod='Transit'",
+    "columns": [
+      {
+        "name": "n",
+        "rtol": 0,
+        "atol": 0
+      }
+    ],
+    "family": "population",
+    "difficulty": "easy",
+    "tags": [
+      "case",
+      "grain"
+    ],
+    "caveat": "Counts describe the retrieved catalog, not an immutable population.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-005",
+    "title": "Radial velocity discoveries",
+    "prompt": "How many pscomppars planets have discoverymethod 'Radial Velocity'?",
+    "query": "select count(*) as n from pscomppars where discoverymethod='Radial Velocity'",
+    "columns": [
+      {
+        "name": "n",
+        "rtol": 0,
+        "atol": 0
+      }
+    ],
+    "family": "population",
+    "difficulty": "easy",
+    "tags": [
+      "population"
+    ],
+    "caveat": "Counts describe the retrieved catalog, not an immutable population.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-006",
+    "title": "Distinct catalog hosts",
+    "prompt": "How many distinct hostname values occur in pscomppars?",
+    "query": "select count(distinct hostname) as n from pscomppars",
+    "columns": [
+      {
+        "name": "n",
+        "rtol": 0,
+        "atol": 0
+      }
+    ],
+    "family": "aggregation",
+    "difficulty": "easy",
+    "tags": [
+      "aggregation"
+    ],
+    "caveat": "Hostname strings are catalog identifiers; this is not a resolved multiplicity analysis.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-007",
+    "title": "TRAPPIST-1 e radius",
+    "prompt": "What is the composite radius of TRAPPIST-1 e in Earth radii?",
+    "query": "select pl_rade from pscomppars where pl_name='TRAPPIST-1 e'",
+    "columns": [
+      {
+        "name": "pl_rade",
+        "unit": "Rearth",
+        "kind": "number"
+      }
+    ],
+    "family": "units",
+    "difficulty": "easy",
+    "tags": [
+      "units"
+    ],
+    "caveat": "Composite parameters can come from different references.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-008",
+    "title": "TRAPPIST-1 e period",
+    "prompt": "What is TRAPPIST-1 e's composite orbital period in days?",
+    "query": "select pl_orbper from pscomppars where pl_name='TRAPPIST-1 e'",
+    "columns": [
+      {
+        "name": "pl_orbper",
+        "unit": "day",
+        "kind": "number"
+      }
+    ],
+    "family": "lookup",
+    "difficulty": "easy",
+    "tags": [
+      "lookup"
+    ],
+    "caveat": "A reported value is not an uncertainty estimate.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-009",
+    "title": "TRAPPIST-1 e distance",
+    "prompt": "What is the pscomppars system distance for TRAPPIST-1 e in parsecs?",
+    "query": "select sy_dist from pscomppars where pl_name='TRAPPIST-1 e'",
+    "columns": [
+      {
+        "name": "sy_dist",
+        "unit": "pc",
+        "kind": "number"
+      }
+    ],
+    "family": "units",
+    "difficulty": "easy",
+    "tags": [
+      "units"
+    ],
+    "caveat": "System distance is not planet-star separation.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-010",
+    "title": "Small, short-period planets",
+    "prompt": "Count pscomppars rows with measured (pl_radelim=0), non-null radius below 2 Earth radii and non-null period below 10 days. Treat these as catalog filters, not a completeness study.",
+    "query": "select count(*) as n from pscomppars where pl_rade is not null and pl_rade<2 and pl_radelim=0 and pl_orbper is not null and pl_orbper<10",
+    "columns": [
+      {
+        "name": "n",
+        "rtol": 0,
+        "atol": 0
+      }
+    ],
+    "family": "joint-filter",
+    "difficulty": "medium",
+    "tags": [
+      "joint-filter"
+    ],
+    "caveat": "Counts describe the retrieved catalog, not an immutable population.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-011",
+    "title": "Discovery method breakdown",
+    "prompt": "Count pscomppars planets by discoverymethod; order by method ascending.",
+    "query": "select discoverymethod,count(*) as n from pscomppars group by discoverymethod order by discoverymethod",
+    "columns": [
+      {
+        "name": "discoverymethod",
+        "unit": null,
+        "kind": "text"
+      },
+      {
+        "name": "n",
+        "rtol": 0,
+        "atol": 0
+      }
+    ],
+    "family": "aggregation",
+    "difficulty": "medium",
+    "tags": [
+      "aggregation"
+    ],
+    "caveat": "Counts describe the retrieved catalog, not an immutable population.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": true,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-012",
+    "title": "Reference-specific radii",
+    "prompt": "List all ps references for TRAPPIST-1 e with their Earth-radius values and default flags; retain nulls and every reference. Ordering is irrelevant.",
+    "query": "select pl_refname,pl_rade,default_flag from ps where pl_name='TRAPPIST-1 e'",
+    "columns": [
+      {
+        "name": "pl_refname",
+        "unit": null,
+        "kind": "text"
+      },
+      {
+        "name": "pl_rade",
+        "unit": "Rearth",
+        "kind": "number"
+      },
+      {
+        "name": "default_flag",
+        "rtol": 0,
+        "atol": 0
+      }
+    ],
+    "family": "table-grain",
+    "difficulty": "hard",
+    "tags": [
+      "table-grain"
+    ],
+    "caveat": "Reference strings can contain archive HTML; render them as text, not executable markup.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-013",
+    "title": "Preferred radius",
+    "prompt": "Return TRAPPIST-1 e's ps radius in Earth radii from the preferred solution (default_flag=1).",
+    "query": "select pl_rade from ps where pl_name='TRAPPIST-1 e' and default_flag=1",
+    "columns": [
+      {
+        "name": "pl_rade",
+        "unit": "Rearth",
+        "kind": "number"
+      }
+    ],
+    "family": "table-grain",
+    "difficulty": "easy",
+    "tags": [
+      "table-grain"
+    ],
+    "caveat": "Preferred ps solution and composite pscomppars values need not be identical.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-014",
+    "title": "Measured true masses",
+    "prompt": "Count pscomppars rows with non-null pl_bmasse, pl_bmassprov='Mass' and pl_bmasselim=0.",
+    "query": "select count(*) as n from pscomppars where pl_bmasse is not null and pl_bmassprov='Mass' and pl_bmasselim=0",
+    "columns": [
+      {
+        "name": "n",
+        "rtol": 0,
+        "atol": 0
+      }
+    ],
+    "family": "limits",
+    "difficulty": "medium",
+    "tags": [
+      "limits"
+    ],
+    "caveat": "Exclude Msini and limits; this is a provenance-filtered count.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-015",
+    "title": "Radius upper limits",
+    "prompt": "Count pscomppars rows with a non-null radius and pl_radelim=1 (upper limit).",
+    "query": "select count(*) as n from pscomppars where pl_rade is not null and pl_radelim=1",
+    "columns": [
+      {
+        "name": "n",
+        "rtol": 0,
+        "atol": 0
+      }
+    ],
+    "family": "limits",
+    "difficulty": "medium",
+    "tags": [
+      "limits"
+    ],
+    "caveat": "Counts describe the retrieved catalog, not an immutable population.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-016",
+    "title": "Largest reported catalog radii",
+    "prompt": "List the 10 largest non-null pscomppars pl_rade values with planet names. Sort radius descending, then name ascending to break ties. Include catalog entries regardless of limit flag; do not infer physical validity.",
+    "query": "select pl_name,pl_rade from pscomppars where pl_rade is not null order by pl_rade desc,pl_name asc",
+    "columns": [
+      {
+        "name": "pl_name",
+        "unit": null,
+        "kind": "text"
+      },
+      {
+        "name": "pl_rade",
+        "unit": "Rearth",
+        "kind": "number"
+      }
+    ],
+    "family": "ranking",
+    "difficulty": "hard",
+    "tags": [
+      "top-order-defect",
+      "ordering",
+      "units"
+    ],
+    "caveat": "TOP plus ORDER BY is quarantined. These are catalog extrema, not confirmed physical sizes.",
+    "rationale": "Retrieve the complete bounded two-column result, verify its global order, then take ten locally.",
+    "ordered": true,
+    "take": 10,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-017",
+    "title": "Case-sensitive negative control",
+    "prompt": "Count pscomppars rows whose discoverymethod equals the lowercase string 'transit' exactly.",
+    "query": "select count(*) as n from pscomppars where discoverymethod='transit'",
+    "columns": [
+      {
+        "name": "n",
+        "rtol": 0,
+        "atol": 0
+      }
+    ],
+    "family": "case",
+    "difficulty": "easy",
+    "tags": [
+      "case"
+    ],
+    "caveat": "This is a case-sensitivity control, not the number of transit discoveries.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "answer",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-018",
+    "title": "Nearby needs a boundary",
+    "prompt": "Show me the nearby planets.",
+    "query": null,
+    "columns": [],
+    "family": "ambiguity",
+    "difficulty": "easy",
+    "tags": [
+      "ambiguity"
+    ],
+    "caveat": "Ask for a distance threshold, catalog population, and desired fields.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "clarify",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-019",
+    "title": "Life is not a catalog field",
+    "prompt": "Which exoplanet is proven to host life, according to these tables?",
+    "query": null,
+    "columns": [],
+    "family": "unsupported",
+    "difficulty": "easy",
+    "tags": [
+      "unsupported"
+    ],
+    "caveat": "The supported tables cannot establish this claim; do not invent a detection.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "abstain",
+    "expert_review": "pending"
+  },
+  {
+    "id": "exo-020",
+    "title": "Best needs a metric",
+    "prompt": "What is the best exoplanet?",
+    "query": null,
+    "columns": [],
+    "family": "ambiguity",
+    "difficulty": "easy",
+    "tags": [
+      "ambiguity"
+    ],
+    "caveat": "Ask for the user's scientific objective and ranking criterion.",
+    "rationale": "The question states the table, row grain, and filters explicitly.",
+    "ordered": false,
+    "take": null,
+    "decision": "clarify",
+    "expert_review": "pending"
+  }
+]

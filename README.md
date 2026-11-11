@@ -1,150 +1,105 @@
 # ExoQuery-Bench
 
-**How accurately do LLMs answer plain-English questions from NASA astronomy archives?**
+**Inspect astronomy archive evidence before trusting an answer.**
 
-ExoQuery-Bench is an open benchmark and evaluation harness for natural-language-to-ADQL assistants on the
-[NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/). It scores Claude, OpenAI, Gemini and local
-models across retrieval (RAG), self-correcting agents and the public
-[AstroFetch](https://astrofetch.ipac.caltech.edu/) MCP tools, and reports *where* answers fail, not just how often.
+ExoQuery-Bench is a Python evaluation package and local research workbench for questions about the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/). Researchers can inspect queries and source data, compare candidate result tables, and save scientific review notes.
 
-> **Status: work in progress (started October 2026).** No results are published yet. The roadmap below shows what
-> exists and what is next. Numbers in this README describe the archive itself, checked live on 2026-10-07.
+**Status: working development prototype; scientific review pending.** The first public set contains 20 questions, including 17 captured archive references and three clarification/abstention cases. The references were captured on **October 12, 2026**. No model benchmark, expert approval, real-user impact, or production deployment is claimed.
 
----
+## Start locally
 
-## Why this exists
+Install Python 3.12 and [uv](https://docs.astral.sh/uv/getting-started/installation/), then run from this repository:
 
-Assistants such as AstroFetch turn a question like *"How many planets has the transit method found?"* into ADQL, run
-it against the archive's TAP service and explain the result. The
-[AstroFetch FAQ](https://astrofetch.ipac.caltech.edu/faq) says the most common errors are wrong column names and unit
-mismatches, and that quality is currently judged through user ratings. A public, reproducible score would show which
-models, prompts and tools reduce those errors.
+```sh
+uv sync --locked
+uv run eqb doctor
+uv run eqb serve
+```
 
-The archive has real traps for a language model. Each one below was checked live against the TAP service on
-2026-10-07 and against the archive's [column definitions](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)
-and [TAP guide](https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html):
+Open **http://127.0.0.1:8765**. Use Ctrl+C to stop the server. Normal app use is offline after installation. No API keys or paid model calls are needed. On Windows, if `uv` is not on PATH, use its installed executable path instead.
 
-| Trap | What a model might write | What happens |
-|---|---|---|
-| One row per *solution*, not per planet | `select count(*) from ps where discoverymethod='Transit'` | **36,100** rows instead of **4,711** planets. The `ps` table holds 40,194 rows for 6,375 planets; only `default_flag=1` (or the `pscomppars` table) gives one row per planet. |
-| Earth vs Jupiter radii | `pl_radj` when the question means Earth radii | Answers off by **11.2×** (1 R<sub>Jup</sub> = 11.21 R<sub>Earth</sub>, per `astropy.units`). |
-| Case-sensitive values | `discoverymethod='transit'` | **0 rows.** Values are case-sensitive; the stored value is `'Transit'`. |
-| SQL habits | `... limit 10` | **Query error.** ADQL uses `select top 10 ...`. |
-| Undocumented columns | `disc_method='tran'` | Runs and returns codes (`tran`, `rv`, ...), but `disc_method` is not in `TAP_SCHEMA.columns` or the column docs, so a model cannot learn it from the schema. |
-| Inconsistent unit labels | trusting unit strings | Earth radius is labelled `Rearth` in `ps`, `Earth Radius` in `pscomppars` and `R_Earth` in `toi`. |
+For the locally bound container option, run `docker compose up --build` with Docker running. Reviews persist in the named `reviews` volume. Do not expose this prototype directly to the internet.
 
-## What the benchmark measures
+## What works
 
-**Systems under test**, from simplest to most capable:
+- Browse and search 20 questions, with difficulty and scientific caveats.
+- Inspect reference ADQL, returned columns, units, timestamps and raw-response hashes.
+- Compare manually supplied JSON results, including unit conversion, duplicates, nulls and required ordering.
+- Distinguish mismatch from an unavailable, partial or otherwise inconclusive result.
+- Try explicitly labelled reference self-checks and synthetic wrong values.
+- Save checks and consented review notes to local SQLite; download evidence and review JSON.
+- Capture fresh public archive evidence through an opt-in CLI, preserving raw VOTables and schema metadata.
 
-| ID | System | Idea |
-|---|---|---|
-| S0 | Direct prompt | Question in, ADQL out. The baseline. |
-| S1 | Schema in prompt | A curated list of tables and key columns in the system prompt. |
-| S2 | RAG | Hybrid retrieval (keyword + embeddings) over column definitions, table notes and worked example queries, so the model sees the right columns first. |
-| S3 | RAG + agent | A tool-using loop that validates the ADQL, runs it, reads errors, checks units and retries within a step budget. |
-| S4 | AstroFetch MCP | The model drives AstroFetch's public MCP tools (`get_profile_context`, `browse_schema`, `validate_adql`, `execute_adql_query`), measuring that production tool path. |
+The browser does not execute arbitrary queries and does not call models. A result match establishes agreement with a saved table, not the correctness of scientific reasoning. References remain visible because this is a public development set.
 
-**Providers:** Anthropic Claude, OpenAI, Google Gemini and a local model through Ollama, behind one interface.
-Every system returns a structured JSON object (ADQL, tables, columns, units, assumptions) so outputs can be scored
-field by field.
+## Reproduce the checks
 
-**Metrics**
+```sh
+uv run ruff check .
+uv run ruff format --check .
+uv run pytest
+uv run eqb doctor
+uv run eqb replay
+```
 
-- **Execution accuracy:** run the candidate and the gold query against the live archive at the same moment and
-  compare result sets (order-insensitive, numeric tolerance). Comparing at run time keeps the score valid as the
-  archive adds planets each week.
-- **Component scores:** table choice, column F1, `default_flag` handling, unit correctness (checked with
-  `astropy.units`), valid-ADQL rate and correct refusal on unanswerable questions.
-- **Answer faithfulness:** an LLM judge checks the final plain-English answer against the returned rows. The judge is
-  calibrated against human labels on a subset and reported with Cohen's kappa, because execution matching alone has
-  known false positives and negatives ([FLEX, arXiv:2409.19014](https://arxiv.org/abs/2409.19014)).
-- **Retrieval quality (S2, S3):** recall@k of the gold columns and context precision.
-- **Cost and speed:** tokens, dollars, latency and tool calls per question.
-- **Uncertainty:** bootstrap confidence intervals and paired tests between systems, so small differences are not
-  over-read.
+Tests block external DNS access and mock archive failures. `replay` checks the software against its own references and labels that fact; its output is not model accuracy. The evidence tests reconstruct stored reference rows from the original archive bytes.
 
-## The question set
+The CI workflow runs offline checks on Windows and Linux, builds a wheel/source distribution and smoke-tests the container. Live NASA queries are deliberately excluded from CI.
 
-Version 0.1 targets about **120 questions**, each written by hand and checked live. Each item records:
+## Compare a result
+
+Save a submission as `candidate.json`:
 
 ```json
 {
-  "id": "eqb-0001",
-  "question": "How many confirmed planets were discovered by the transit method?",
-  "archive": "nasa_exoplanet_archive",
-  "gold_adql": "select count(*) from pscomppars where discoverymethod = 'Transit'",
-  "tags": ["aggregation", "table_choice", "case_sensitive_value"],
-  "difficulty": "easy",
-  "answer_type": "scalar",
-  "tolerance": 0
+  "question_id": "exo-007",
+  "decision": "answer",
+  "result": {
+    "status": "ok",
+    "rows": [{"pl_rade": 1.0}],
+    "units": {"pl_rade": "Rearth"}
+  },
+  "explanation": "Illustrative candidate, not a verified measurement."
 }
 ```
 
-Categories cover lookups, filters, aggregations, unit conversions, table choice (`ps`, `pscomppars`, `stellarhosts`,
-`toi`), joins, sky-position searches, TESS candidate dispositions, spectra tables and deliberately unanswerable
-questions. Paraphrased variants test whether a system's answer changes when only the wording does.
-
-## Planned repository layout
-
-```
-exoquery-bench/
-├── data/questions/          # benchmark items (JSONL), versioned
-├── data/schema/             # cached TAP_SCHEMA and column docs, with snapshot date
-├── src/eqb/
-│   ├── archive.py           # TAP client (PyVO / astroquery), caching, polite rate limits
-│   ├── providers/           # Claude, OpenAI, Gemini, Ollama behind one interface
-│   ├── systems/             # S0 to S4
-│   ├── rag/                 # chunking, hybrid retrieval, retrieval metrics
-│   ├── scoring/             # result-set comparison, unit checks, LLM judge
-│   └── report/              # Bokeh leaderboard and error breakdown
-├── app/                     # chat demo with ADQL shown, unit warnings and feedback capture
-├── tests/                   # pytest; CI replays cached responses at $0 API cost
-└── docs/
+```sh
+uv run eqb evaluate candidate.json
+uv run eqb prompts
+uv run eqb export-feedback --data-dir .eqb
 ```
 
-## Roadmap
+The example is intentionally illustrative and may not match the reference. Exported prompts omit reference queries and expected decisions; they are still from a public development set. Feedback exports can contain reviewer-authored material: review the file before sharing it.
 
-- [x] Scope, archive traps and evaluation design (this README)
-- [ ] Schema snapshot and 20 seed questions with live-checked gold ADQL
-- [ ] Result-set comparator and unit checker, with tests
-- [ ] S0 and S1 across all four providers
-- [ ] 120-question v0.1 set; S2 (RAG) with retrieval metrics
-- [ ] S3 agent and S4 AstroFetch MCP runs
-- [ ] LLM judge calibrated against human labels
-- [ ] Interactive Bokeh leaderboard on GitHub Pages
-- [ ] Chat demo; user feedback turns into new benchmark items
-- [ ] Extension to IRSA and the Keck Observatory Archive
-- [ ] Short write-up (Research Notes of the AAS)
+## Refresh evidence deliberately
 
-## Being a good archive citizen
+```sh
+uv run eqb capture --output .eqb/capture-new
+```
 
-Queries are cached, rate-limited and kept small. Large pulls go through a TAP client and asynchronous jobs, as the archive's
-[TAP guide](https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html) advises for big downloads. Runs through the
-AstroFetch MCP endpoint are throttled and cached the same way. Feedback from the NExScI team and archive users is
-very welcome through Issues.
+The destination must not already exist. This makes 19 bounded, sequential, read-only requests: a schema query, 17 answerable questions and one independent ranking control. Results are staged there; the command never silently replaces packaged references. Inspect failed checks, review scientific changes, then promote the complete bundle in a new commit and rerun tests. Do not regenerate a hash merely to hide an unexplained mismatch.
 
-## Related work
+The capture checks catch a known direct-TAP `TOP ... ORDER BY` ranking defect. The ranking case instead retrieves the complete bounded two-column result, verifies its order and population, cross-checks its maximum, and selects ten locally. Archive observations and workarounds can change; revalidate them before scientific use.
 
-- [ALeRCE text-to-SQL system](https://arxiv.org/abs/2606.18108) (A&A, 2026): 110 question-SQL pairs and 13 LLMs on
-  the ALeRCE transient-broker database. Schema linking and self-correction raised accuracy, which motivates S2 and S3
-  here.
-- [nasa-exoplanet-mcp](https://glama.ai/mcp/servers/saikrmet/nasa-exoplanet-mcp): an open MCP server for the same
-  archive with a scenario test suite.
-- [Ragas](https://arxiv.org/abs/2309.15217): automated metrics for retrieval-augmented generation.
+## Project map
 
-## Acknowledgements and data
+| Location | Purpose |
+|---|---|
+| `src/eqb/contracts.py` | Strict question, result and submission contracts |
+| `src/eqb/archive.py` | Bounded read-only TAP/VOTable adapter |
+| `src/eqb/capture.py` | Evidence capture and independent controls |
+| `src/eqb/scoring.py` | Unit-aware ordered/multiset comparison |
+| `src/eqb/data/` | Questions, references, raw responses and verification |
+| `src/eqb/app.py`, `static/` | FastAPI and browser workbench |
+| `src/eqb/store.py` | Local SQLite persistence |
+| `tests/` | Scientific semantics, failures, integrity and API regressions |
 
-This project uses the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/), maintained by Caltech/IPAC
-under contract with NASA, and [AstroFetch](https://astrofetch.ipac.caltech.edu/) from NExScI/IPAC. It is an
-independent project and is not affiliated with or endorsed by NASA, Caltech or IPAC. Please cite the archive's DOI
-when using its data.
+Read the [architecture](docs/ARCHITECTURE.md), [dataset card](docs/DATASET_CARD.md), [pilot guide](docs/PILOT_GUIDE.md), and [gated roadmap](PROJECT_SCOPE.md).
 
-## Author
+## What comes next
 
-**Aryan Meena**: MS Applied Data Analytics, Boston University. Earlier evaluation work:
-[JudgeGuard](https://github.com/RyanSingh0/judgeguard) ([live app](https://huggingface.co/spaces/RugFace/judgeguard-app)).
+First, obtain scientific review through a small astronomy pilot and correct the reference set. Then introduce recorded model experiments, retrieval/tool comparisons, a separate held-out set, calibrated answer-faithfulness review and a deployment with appropriate user-data controls. IRSA/KOA and broader research tasks follow only after the first archive is validated.
 
-## License
+This is an independent project, not affiliated with or endorsed by Caltech, IPAC or NASA. Relevant upstream references: [archive column definitions](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html), [TAP usage](https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html), and [AstroFetch](https://astrofetch.ipac.caltech.edu/).
 
-MIT
+Code and authored questions: MIT. Preserve archive provenance and cite underlying scientific sources when using the data.

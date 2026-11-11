@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# Preserve byte-identical scientific evidence on every platform.
+*.json -text whitespace=cr-at-eol
+*.xml -text -diff -whitespace
+src/eqb/data/raw/* linguist-generated=true
